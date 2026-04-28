@@ -1,0 +1,97 @@
+# Members of the IFUSP Heavy-Ion Group
+#
+# List everyone under their real role (Postdocs, PhD Students, etc.).
+# Set active: false when they leave — the website will move them to the
+# "Former Members" section automatically. No need to change their role.
+#
+# inspire_bai: INSPIRE-HEP author BAI (e.g. "M.Luzum.1")
+#   Used by scripts/update_publications_from_inspirehep.py
+#   Look up at: https://inspirehep.net/authors
+# lattes: CNPq Lattes curriculum ID number
+# orcid: ORCID identifier
+# url: personal or profile page URL
+# note: short note shown only for former members (e.g. current position)
+
+- role: Faculty
+  members:
+    - name: Matthew Luzum
+      active: true
+      title: Associate Professor (MS-5)
+      institution: Institute of Physics, University of São Paulo
+      inspire_bai: M.Luzum.1
+      orcid: 0000-0002-0367-7055
+      lattes: "3672547273353904"
+      url: https://matt.luzum.org/
+
+- role: Postdocs
+  members:
+    - name: Osvaldo Ferreira Neto
+      active: true
+      lattes: "6790966492250263"
+    - name: Tiago José Nunes da Silva
+      active: false
+      note: Now Professor at UFSC
+    - name: Andre Veiga Giannini
+      active: false
+      note: Now Professor at UFGD
+    - name: Maurício Hippert Teixeira
+      active: false
+      note: Now Postdoc at UIUC
+    - name: Willian Matioli Serenone
+      active: false
+      note: Postdoc, Unicamp
+
+- role: PhD Students
+  members:
+    - name: João Paulo Picchetti
+      active: true
+      lattes: ""
+    - name: Thiago Siqueira Domingues
+      active: true
+      lattes: "4092459866318436"
+      inspire_bai: T.S.Domingues.1
+    - name: Genilson Alves Cardoso da Silva
+      active: true
+      lattes: ""
+    - name: Giuliano de Souza Dias
+      active: true
+      lattes: ""
+    - name: Liner de Souza Santos
+      active: false
+      note: PhD, USP
+    - name: Arthur Lopes
+      active: false
+      note: PhD, USP
+    - name: Jefferson Arthur Dias de Sousa
+      active: false
+      note: PhD, USP
+
+- role: Master's Students
+  members:
+    - name: Gabriel Alves de Lima Guimarães
+      active: true
+      lattes: ""
+    - name: Luiza Fernanda Perin
+      active: true
+      lattes: ""
+    - name: Matheus Colmenero
+      active: true
+      lattes: ""
+    - name: Rodrigo Guanciale Franco
+      active: false
+      note: MSc, USP
+    - name: Jefferson Arthur Dias de Sousa
+      active: false
+      note: MSc, USP (later PhD)
+    - name: Thiago Siqueira Domingues
+      active: false
+      note: MSc, USP (later PhD student in group)
+
+- role: Undergraduate Researchers
+  members:
+    - name: Marco Ghio Filho
+      active: true
+      lattes: ""
+    - name: Luiz Fernando Vilkelis Aparicio
+      active: true
+      lattes: ""

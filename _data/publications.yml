@@ -1,0 +1,82 @@
+# Publications of the IFUSP Heavy-Ion Group
+#
+# This file is updated automatically by scripts/update_publications_from_inspirehep.py
+# Run: python scripts/update_publications_from_inspirehep.py
+#
+# Fields:
+#   year:   publication year (integer)
+#   title:  paper title
+#   authors: author list string
+#   venue:  journal or proceedings name
+#   doi:    DOI identifier only (URL built automatically)
+#   arxiv:  arXiv ID only (URL built automatically)
+#   url:    use for non-DOI links (e.g. thesis)
+#   note:   optional note (e.g. "Under review")
+
+- category: Group Publications
+  items:
+    - year: 2025
+      title: Universality of scaled particle spectra in ultrarelativistic heavy-ion collisions
+      authors: C. D. Muncinelli et al. (The ExTrEMe Collaboration)
+      venue: Phys.Rev.C 112 (2025) 6
+      doi: 10.1103/2yqq-qfwd
+      arxiv: '2406.15208'
+    - year: 2025
+      title: Probing the onset of collectivity via scaled particle spectra in ultrarelativistic nuclear collisions
+      authors: T. S. Domingues et al. (The ExTrEMe Collaboration)
+      venue: Quark Matter 2025 proceedings
+      doi: 10.1051/epjconf/202636404011
+      arxiv: '2508.21176'
+    - year: 2026
+      title: The shape of transverse momentum spectra in hybrid hydrodynamic models
+      authors: T. S. Domingues et al. (The ExTrEMe Collaboration)
+      venue: Under review
+      arxiv: '2602.22490'
+    - year: 2026
+      title: Scaled transverse-momentum spectra as a probe of collective dynamics in heavy-ion collisions
+      authors: T. S. Domingues and Matthew Luzum for the ExTrEMe Collaboration
+      venue: Advances in QCD at the LHC and the EIC 2025 proceedings
+      arxiv: '2603.15891'
+    - year: 2024
+      title: Causality violations in simulations of large and small heavy-ion collisions
+      authors: R. Krupczak et al. (The ExTrEMe Collaboration)
+      venue: Phys. Rev. C 109, 034908
+      doi: 10.1103/PhysRevC.109.034908
+      arxiv: '2311.02210'
+    - year: 2023
+      title: Pre-hydrodynamic evolution in large and small systems
+      authors: T. N. da Silva et al. (The ExTrEMe Collaboration)
+      venue: Phys. Rev. C 107, 044901
+      doi: 10.1103/PhysRevC.107.044901
+      arxiv: '2211.10561'
+    - year: 2023
+      title: Assessing the ultracentral flow puzzle in hydrodynamic modeling of heavy-ion collisions
+      authors: A. V. Giannini et al. (The ExTrEMe Collaboration)
+      venue: Phys. Rev. C 107, 044907
+      doi: 10.1103/PhysRevC.107.044907
+      arxiv: '2203.17011'
+    - year: 2021
+      title: Pre-hydrodynamic evolution and its signatures in final-state heavy-ion observables
+      authors: T. N. da Silva et al.
+      venue: Phys. Rev. C 103, 054906
+      doi: 10.1103/PhysRevC.103.054906
+      arxiv: '2006.02324'
+    - year: 2020
+      title: Probing the structure of the initial state of heavy-ion collisions with pT-dependent flow fluctuations
+      authors: M. Hippert et al. (The ExTrEMe Collaboration)
+      venue: Phys. Rev. C 102, 064909
+      doi: 10.1103/PhysRevC.102.064909
+    - year: 2020
+      title: Measuring Momentum-Dependent Flow Fluctuations in Heavy-Ion Collisions
+      authors: M. Hippert et al.
+      venue: Phys. Rev. C 101, 034903
+      doi: 10.1103/PhysRevC.101.034903
+      arxiv: '1906.08915'
+
+- category: Theses
+  items:
+    - year: 2022
+      title: Studying the impact of the nucleon size in relativistic heavy-ion collisions
+      authors: Joao Paulo Picchetti
+      venue: MSc thesis, USP
+      url: https://repositorio.unicamp.br/acervo/detalhe/1254908

@@ -1,0 +1,14 @@
+title: IFUSP Heavy-Ion Group
+email: mluzum@usp.br
+description: Relativistic Heavy-Ion Physics group of Prof. Matthew Luzum at the Institute of Physics, University of São Paulo.
+baseurl: ""
+url: ""
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+header_pages:
+  - members.md
+  - research.md
+  - publications.md
+  - contact.md

@@ -1,0 +1,57 @@
+name: Build and check site
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Install dependencies
+        run: bundle install
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Validate YAML data files
+        run: |
+          python3 - <<'PYEOF'
+          import yaml, sys
+          errors = []
+          for path in ["_data/members.yml", "_data/publications.yml"]:
+              try:
+                  data = yaml.safe_load(open(path))
+                  print(f"✓ {path}: valid YAML")
+              except yaml.YAMLError as e:
+                  errors.append(f"✗ {path}: {e}")
+          with open("_data/members.yml") as f:
+              members = yaml.safe_load(f)
+          for group in members:
+              for m in group.get("members", []):
+                  if "active" not in m:
+                      errors.append(f"✗ members.yml: '{m.get('name','?')}' missing 'active' field")
+          if errors:
+              [print(e) for e in errors]
+              sys.exit(1)
+          print("✓ YAML validation passed")
+          PYEOF
+
+      - name: Check internal links (html-proofer)
+        run: |
+          gem install html-proofer --no-document -q
+          htmlproofer _site \
+            --disable-external \
+            --checks Links,Images \
+            --allow-hash-href \
+            --ignore-urls "/feed.xml"
