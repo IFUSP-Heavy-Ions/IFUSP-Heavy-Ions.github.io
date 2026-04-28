@@ -11,9 +11,9 @@ permalink: /contact/
 **Office:** Room 3097, Ala Central
 
 **Institution:**  
-[Department of Mathematical Physics](http://fmatrm.if.usp.br/)  
-[Institute of Physics](http://if.usp.br/)  
-[University of São Paulo](http://www5.usp.br/)
+[Department of Mathematical Physics](https://fmatrm.if.usp.br/)  
+[Institute of Physics](https://if.usp.br/)  
+[University of São Paulo](https://www5.usp.br/)
 
 **Postal address:**  
 Rua do Matão, 1371, Butantã  

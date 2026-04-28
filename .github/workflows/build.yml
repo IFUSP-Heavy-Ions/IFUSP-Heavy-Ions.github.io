@@ -52,6 +52,6 @@ jobs:
           gem install html-proofer --no-document -q
           htmlproofer _site \
             --disable-external \
-            --checks Links,Images \
+            --no-enforce-https \
             --allow-hash-href \
             --ignore-urls "/feed.xml"

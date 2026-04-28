@@ -4,7 +4,7 @@ title: IFUSP Heavy-Ion Group
 ---
 
 <div class="hero-panel">
-  The <strong>Heavy-Ion Physics Group</strong> at the <a href="http://if.usp.br/">Institute of Physics, University of São Paulo</a> investigates the properties of strongly interacting matter under extreme conditions of temperature and density — the <em>Quark-Gluon Plasma</em>.
+  The <strong>Heavy-Ion Physics Group</strong> at the <a href="https://if.usp.br/">Institute of Physics, University of São Paulo</a> investigates the properties of strongly interacting matter under extreme conditions of temperature and density — the <em>Quark-Gluon Plasma</em>.
 </div>
 
 ## Research Focus
@@ -33,7 +33,7 @@ We use relativistic heavy-ion collisions as a laboratory to study QCD matter bey
 
 - INSPIRE: [M.Luzum.1](https://inspirehep.net/authors/1019100)
 - ORCID: [0000-0002-0367-7055](https://orcid.org/0000-0002-0367-7055)
-- Lattes: [3672547273353904](http://lattes.cnpq.br/3672547273353904)
+- Lattes: [3672547273353904](https://lattes.cnpq.br/3672547273353904)
 
 ## Collaborations
 

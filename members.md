@@ -19,7 +19,7 @@ Set `active: false` for a member to move them to the Former Members section auto
 - {% if m.url %}[{{ m.name }}]({{ m.url }}){% else %}{{ m.name }}{% endif %}{% if m.title %} — {{ m.title }}{% endif %}
   {%- if m.inspire_bai or m.orcid or m.lattes %}
   <br>
-  {% if m.inspire_bai %}<a href="https://inspirehep.net/search?p=a+{{ m.inspire_bai }}&of=hb">INSPIRE</a>{% endif %}{% if m.orcid %}{% if m.inspire_bai %} · {% endif %}<a href="https://orcid.org/{{ m.orcid }}">ORCID</a>{% endif %}{% if m.lattes and m.lattes != "" %}{% if m.inspire_bai or m.orcid %} · {% endif %}<a href="http://lattes.cnpq.br/{{ m.lattes }}">Lattes</a>{% endif %}
+  {% if m.inspire_bai %}<a href="https://inspirehep.net/search?p=a+{{ m.inspire_bai }}&of=hb">INSPIRE</a>{% endif %}{% if m.orcid %}{% if m.inspire_bai %} · {% endif %}<a href="https://orcid.org/{{ m.orcid }}">ORCID</a>{% endif %}{% if m.lattes and m.lattes != "" %}{% if m.inspire_bai or m.orcid %} · {% endif %}<a href="https://lattes.cnpq.br/{{ m.lattes }}">Lattes</a>{% endif %}
   {% endif %}
 {% endfor %}
 

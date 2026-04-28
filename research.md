@@ -40,7 +40,7 @@ We work with full hybrid simulation chains (IP-Glasma → MUSIC → UrQMD) and u
 
 ## Software
 
-- [MUSIC](http://www.physics.mcgill.ca/music/) — 3+1D viscous relativistic hydrodynamics
+- [MUSIC](https://www.physics.mcgill.ca/music/) — 3+1D viscous relativistic hydrodynamics
 - [Isobar-Sampler](https://github.com/mluzum/Isobar-Sampler) — nuclear configuration generator
 - [iEBE-MUSIC](https://github.com/JETSCAPE/iEBE-MUSIC) — full hybrid event-by-event simulation chain
 
