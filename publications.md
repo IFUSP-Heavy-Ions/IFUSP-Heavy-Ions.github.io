@@ -4,33 +4,30 @@ title: Publications
 permalink: /publications/
 ---
 
-This page is rendered from `/_data/publications.yml`, which is kept up to date by running:
-
-```
-python scripts/update_publications_from_inspirehep.py
-```
-
 {% for group in site.data.publications %}
 ## {{ group.category }}
 
 {% assign entries = group.items | sort: "year" | reverse %}
+<ul class="pub-list">
 {% for paper in entries %}
-- **{{ paper.year }}** — {{ paper.title }}
-
-  _{{ paper.authors }}_
-
-  {{ paper.venue }}{% if paper.note %} _({{ paper.note }})_{% endif %}
-
-  {% if paper.doi %}[doi:{{ paper.doi }}](https://doi.org/{{ paper.doi }}){% endif %}{% if paper.arxiv %}{% if paper.doi %} \| {% endif %}[arXiv:{{ paper.arxiv }}](https://arxiv.org/abs/{{ paper.arxiv }}){% endif %}{% if paper.url %}{% if paper.doi or paper.arxiv %} \| {% endif %}[Link]({{ paper.url }}){% endif %}
-
+  <li class="pub-item">
+    <span class="pub-year">{{ paper.year }}</span>
+    <div class="pub-body">
+      <div class="pub-title">{{ paper.title }}</div>
+      {% if paper.authors %}<div class="pub-authors">{{ paper.authors }}</div>{% endif %}
+      <div class="pub-meta">
+        {% if paper.venue %}<span class="pub-venue">{{ paper.venue }}</span>{% endif %}
+        {% if paper.note %}<span class="pub-note">({{ paper.note }})</span>{% endif %}
+      </div>
+      {% if paper.doi or paper.arxiv or paper.url %}
+      <div class="pub-links">
+        {% if paper.doi %}<a href="https://doi.org/{{ paper.doi }}">DOI: {{ paper.doi }}</a>{% endif %}
+        {% if paper.arxiv %}<a href="https://arxiv.org/abs/{{ paper.arxiv }}">arXiv:{{ paper.arxiv }}</a>{% endif %}
+        {% if paper.url %}<a href="{{ paper.url }}">Link</a>{% endif %}
+      </div>
+      {% endif %}
+    </div>
+  </li>
 {% endfor %}
+</ul>
 {% endfor %}
-
----
-
-## Maintenance
-
-- New entries can be added by editing `/_data/publications.yml` or by running the INSPIRE update script.
-- `doi`: store just the DOI identifier (e.g., `10.1103/PhysRevC.102.064909`); the URL is built automatically.
-- `arxiv`: store just the arXiv ID (e.g., `2311.02210`); the URL is built automatically.
-- `url`: use for non-DOI links (e.g., thesis repositories).

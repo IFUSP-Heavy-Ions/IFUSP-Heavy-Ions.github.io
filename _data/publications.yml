@@ -1,82 +1,536 @@
-# Publications of the IFUSP Heavy-Ion Group
-#
-# This file is updated automatically by scripts/update_publications_from_inspirehep.py
-# Run: python scripts/update_publications_from_inspirehep.py
-#
-# Fields:
-#   year:   publication year (integer)
-#   title:  paper title
-#   authors: author list string
-#   venue:  journal or proceedings name
-#   doi:    DOI identifier only (URL built automatically)
-#   arxiv:  arXiv ID only (URL built automatically)
-#   url:    use for non-DOI links (e.g. thesis)
-#   note:   optional note (e.g. "Under review")
-
 - category: Group Publications
   items:
-    - year: 2025
-      title: Universality of scaled particle spectra in ultrarelativistic heavy-ion collisions
-      authors: C. D. Muncinelli et al. (The ExTrEMe Collaboration)
-      venue: Phys.Rev.C 112 (2025) 6
-      doi: 10.1103/2yqq-qfwd
-      arxiv: '2406.15208'
-    - year: 2025
-      title: Probing the onset of collectivity via scaled particle spectra in ultrarelativistic nuclear collisions
-      authors: T. S. Domingues et al. (The ExTrEMe Collaboration)
-      venue: Quark Matter 2025 proceedings
-      doi: 10.1051/epjconf/202636404011
-      arxiv: '2508.21176'
-    - year: 2026
-      title: The shape of transverse momentum spectra in hybrid hydrodynamic models
-      authors: T. S. Domingues et al. (The ExTrEMe Collaboration)
-      venue: Under review
-      arxiv: '2602.22490'
-    - year: 2026
-      title: Scaled transverse-momentum spectra as a probe of collective dynamics in heavy-ion collisions
-      authors: T. S. Domingues and Matthew Luzum for the ExTrEMe Collaboration
-      venue: Advances in QCD at the LHC and the EIC 2025 proceedings
-      arxiv: '2603.15891'
-    - year: 2024
-      title: Causality violations in simulations of large and small heavy-ion collisions
-      authors: R. Krupczak et al. (The ExTrEMe Collaboration)
-      venue: Phys. Rev. C 109, 034908
-      doi: 10.1103/PhysRevC.109.034908
-      arxiv: '2311.02210'
-    - year: 2023
-      title: Pre-hydrodynamic evolution in large and small systems
-      authors: T. N. da Silva et al. (The ExTrEMe Collaboration)
-      venue: Phys. Rev. C 107, 044901
-      doi: 10.1103/PhysRevC.107.044901
-      arxiv: '2211.10561'
-    - year: 2023
-      title: Assessing the ultracentral flow puzzle in hydrodynamic modeling of heavy-ion collisions
-      authors: A. V. Giannini et al. (The ExTrEMe Collaboration)
-      venue: Phys. Rev. C 107, 044907
-      doi: 10.1103/PhysRevC.107.044907
-      arxiv: '2203.17011'
-    - year: 2021
-      title: Pre-hydrodynamic evolution and its signatures in final-state heavy-ion observables
-      authors: T. N. da Silva et al.
-      venue: Phys. Rev. C 103, 054906
-      doi: 10.1103/PhysRevC.103.054906
-      arxiv: '2006.02324'
-    - year: 2020
-      title: Probing the structure of the initial state of heavy-ion collisions with pT-dependent flow fluctuations
-      authors: M. Hippert et al. (The ExTrEMe Collaboration)
-      venue: Phys. Rev. C 102, 064909
-      doi: 10.1103/PhysRevC.102.064909
-    - year: 2020
-      title: Measuring Momentum-Dependent Flow Fluctuations in Heavy-Ion Collisions
-      authors: M. Hippert et al.
-      venue: Phys. Rev. C 101, 034903
-      doi: 10.1103/PhysRevC.101.034903
-      arxiv: '1906.08915'
-
+  - year: 2025
+    title: Universality of scaled particle spectra in ultrarelativistic heavy-ion
+      collisions
+    authors: C. D. Muncinelli et al. (The ExTrEMe Collaboration)
+    venue: Phys.Rev.C 112 (2025) 6
+    doi: 10.1103/2yqq-qfwd
+    arxiv: '2406.15208'
+  - year: 2025
+    title: Probing the onset of collectivity via scaled particle spectra in ultrarelativistic
+      nuclear collisions
+    authors: T. S. Domingues et al. (The ExTrEMe Collaboration)
+    venue: Quark Matter 2025 proceedings
+    doi: 10.1051/epjconf/202636404011
+    arxiv: '2508.21176'
+  - year: 2026
+    title: The shape of transverse momentum spectra in hybrid hydrodynamic models
+    authors: T. S. Domingues et al. (The ExTrEMe Collaboration)
+    venue: Under review
+    arxiv: '2602.22490'
+  - year: 2026
+    title: Scaled transverse-momentum spectra as a probe of collective dynamics in
+      heavy-ion collisions
+    authors: T. S. Domingues and Matthew Luzum for the ExTrEMe Collaboration
+    venue: Advances in QCD at the LHC and the EIC 2025 proceedings
+    arxiv: '2603.15891'
+  - year: 2024
+    title: Causality violations in simulations of large and small heavy-ion collisions
+    authors: R. Krupczak et al. (The ExTrEMe Collaboration)
+    venue: Phys. Rev. C 109, 034908
+    doi: 10.1103/PhysRevC.109.034908
+    arxiv: '2311.02210'
+  - year: 2023
+    title: Pre-hydrodynamic evolution in large and small systems
+    authors: T. N. da Silva et al. (The ExTrEMe Collaboration)
+    venue: Phys. Rev. C 107, 044901
+    doi: 10.1103/PhysRevC.107.044901
+    arxiv: '2211.10561'
+  - year: 2023
+    title: Assessing the ultracentral flow puzzle in hydrodynamic modeling of heavy-ion
+      collisions
+    authors: A. V. Giannini et al. (The ExTrEMe Collaboration)
+    venue: Phys. Rev. C 107, 044907
+    doi: 10.1103/PhysRevC.107.044907
+    arxiv: '2203.17011'
+  - year: 2021
+    title: Pre-hydrodynamic evolution and its signatures in final-state heavy-ion
+      observables
+    authors: T. N. da Silva et al.
+    venue: Phys. Rev. C 103, 054906
+    doi: 10.1103/PhysRevC.103.054906
+    arxiv: '2006.02324'
+  - year: 2020
+    title: Probing the structure of the initial state of heavy-ion collisions with
+      pT-dependent flow fluctuations
+    authors: M. Hippert et al. (The ExTrEMe Collaboration)
+    venue: Phys. Rev. C 102, 064909
+    doi: 10.1103/PhysRevC.102.064909
+    arxiv: '2006.13358'
+  - year: 2020
+    title: Measuring Momentum-Dependent Flow Fluctuations in Heavy-Ion Collisions
+    authors: M. Hippert et al.
+    venue: Phys. Rev. C 101, 034903
+    doi: 10.1103/PhysRevC.101.034903
+    arxiv: '1906.08915'
+  - year: 2026
+    title: Are hybrid hydrodynamic models missing soft-pion physics?
+    authors: Ferreira, Osvaldo et al.
+    arxiv: '2611.18290'
+  - year: 2026
+    title: Constrained functional priors for Bayesian inference of hot QCD matter
+    authors: Guimarães, G., Perin, L., Luzum, M.
+    arxiv: '2608.28786'
+  - year: 2026
+    title: 'Static linear response of hot and dense QCD matter to electromagnetic
+      fields: leading hard and soft QCD corrections'
+    authors: Ferreira, Osvaldo et al.
+    venue: JHEP, 034
+    doi: 10.1007/JHEP11(2026)034
+    arxiv: '2606.16377'
+  - year: 2026
+    title: 'Species-dependent viscous corrections at particlization: A novel relaxation
+      time approximation approach'
+    authors: Aguiar, I. et al.
+    venue: Phys.Rev.C, 034912
+    doi: 10.1103/1yt8-s5hz
+    arxiv: '2604.05144'
+  - year: 2026
+    title: Signatures from Pion Condensation and Lepton Flavor Asymmetries in the
+      Cosmological Gravitational Wave Background
+    authors: Ferreira, Osvaldo, Fraga, Eduardo S., Schaffner-Bielich, Jürgen
+    venue: Phys.Rev.Lett., 151001
+    doi: 10.1103/pcbf-pg4p
+    arxiv: '2603.26946'
+  - year: 2026
+    title: Longitudinal dynamics of large and small systems from a 3D Bayesian calibration
+      of RHIC top-energy collision data
+    authors: Mankolli, A. et al.
+    venue: Phys.Rev.C, 014905
+    doi: 10.1103/7kjw-vfgp
+    arxiv: '2601.17234'
+  - year: 2026
+    title: Transport-based initial conditions for heavy-ion collisions at finite densities
+    authors: Roch, H. et al.
+    venue: Phys.Rev.C, 024907
+    doi: 10.1103/nvyy-kxhd
+    arxiv: '2510.06996'
+  - year: 2026
+    title: A resummed hydrodynamic description of relativistic heavy-ion collisions
+    authors: Chiu, Cheng et al.
+    venue: J.Phys.G, 095105
+    doi: 10.1088/1361-6471/aea878
+    arxiv: '2508.05292'
+  - year: 2025
+    title: Chiral symmetry breaking and pion condensation in the early Universe
+    authors: Ferreira, Osvaldo et al.
+    venue: Phys.Rev.D, 094009
+    doi: 10.1103/bcz6-xxn8
+    arxiv: '2507.06518'
+  - year: 2025
+    title: Nuclear Physics Confronts Relativistic Collisions Of Isobars
+    authors: Giacalone, Giuliano et al.
+    arxiv: '2507.01454'
+  - year: 2025
+    title: Interplay of prompt and non-prompt photons in photon-triggered jet observables
+    authors: Sirimanna, Chathuranga et al.
+    venue: EPJ Web Conf., 05002
+    doi: 10.1051/epjconf/202533905002
+    arxiv: '2507.00905'
+  - year: 2025
+    title: Effects of hadronic reinteraction on jet fragmentation from small to large
+      systems
+    authors: Roch, Hendrik et al.
+    venue: EPJ Web Conf., 02017
+    doi: 10.1051/epjconf/202533902017
+    arxiv: '2506.16344'
+  - year: 2026
+    title: Initial-state charge density predicts final-state net charge flow in heavy-ion
+      collisions
+    authors: Sousa, Jefferson et al.
+    venue: Phys.Lett.B, 140806
+    doi: 10.1016/j.physletb.2026.140806
+    arxiv: '2505.16038'
+  - year: 2025
+    title: 'Future Circular Collider Feasibility Study Report: Volume 1, Physics,
+      Experiments, Detectors'
+    authors: Benedikt, M. et al.
+    venue: Eur.Phys.J.C, 1468
+    doi: 10.1140/epjc/s10052-025-15077-x
+    arxiv: '2505.00272'
+  - year: 2025
+    title: 'Future Circular Collider Feasibility Study Report: Volume 2, Accelerators,
+      Technical Infrastructure and Safety'
+    authors: Benedikt, M. et al.
+    venue: Eur.Phys.J.ST, 5713
+    doi: 10.1140/epjs/s11734-025-01967-4
+    arxiv: '2505.00274'
+  - year: 2025
+    title: Future Circular Collider Feasibility Study Report
+    authors: Benedikt, M. et al.
+    venue: Eur.Phys.J.ST, 5113
+    doi: 10.1140/epjs/s11734-025-01958-5
+    arxiv: '2505.00273'
+  - year: 2026
+    title: Effect of recoils on soft-drop-groomed observables in γ-tagged jets in
+      a multistage approach
+    authors: Tachibana, Y. et al.
+    venue: Phys.Rev.C, 034910
+    doi: 10.1103/7qxy-fz41
+    arxiv: '2503.23693'
+  - year: 2025
+    title: Hybrid Hadronization -- A Study of In-Medium Hadronization of Jets
+    authors: Sengupta, A. et al.
+    arxiv: '2501.16482'
+  - year: 2025
+    title: Hard-photon-triggered jets in p-p and A-A collisions
+    authors: Sirimanna, C. et al.
+    venue: Phys.Rev.C, 064911
+    doi: 10.1103/yyr5-zp16
+    arxiv: '2412.19738'
+  - year: 2024
+    title: Effect of causality constraints on Bayesian analyses of heavy-ion collisions
+    authors: Domingues, Thiago S. et al.
+    venue: Phys.Rev.C, 064904
+    doi: 10.1103/PhysRevC.110.064904
+    arxiv: '2409.17127'
+  - year: 2025
+    title: Bayesian inference analysis of jet quenching using inclusive jet and hadron
+      suppression measurements
+    authors: Ehlers, R. et al.
+    venue: Phys.Rev.C, 054913
+    doi: 10.1103/PhysRevC.111.054913
+    arxiv: '2408.08247'
+  - year: 2025
+    title: Soft-hard framework with exact four-momentum conservation for small systems
+    authors: Soudi, I. et al.
+    venue: Phys.Rev.C, 014905
+    doi: 10.1103/r8jt-1xpk
+    arxiv: '2407.17443'
+  - year: 2024
+    title: 'Introdução à inferência Bayesiana: técnicas estatísticas para análise
+      de dados de íons pesados relativísticos'
+    authors: Santos, Liner, Domingues, Thiago
+    doi: 10.5281/zenodo.11430830
+    arxiv: '2406.18734'
+  - year: 2024
+    title: 'Initial energy-momentum to final flow: A general framework for heavy-ion
+      collisions'
+    authors: Sousa, Jefferson, Noronha, Jorge, Luzum, Matthew
+    venue: Phys.Rev.C, 044909
+    doi: 10.1103/PhysRevC.110.044909
+    arxiv: '2405.13600'
+  - year: 2024
+    title: Photon-triggered jets as probes of multi-stage jet modification
+    authors: Sirimanna, Chathuranga et al.
+    venue: EPJ Web Conf., 11008
+    doi: 10.1051/epjconf/202429611008
+    arxiv: '2401.17259'
+  - year: 2024
+    title: Measuring jet quenching with a Bayesian inference analysis of hadron and
+      jet data by JETSCAPE
+    authors: Ehlers, Raymond et al.
+    venue: EPJ Web Conf., 15009
+    doi: 10.1051/epjconf/202429615009
+    arxiv: '2401.04201'
+  - year: 2024
+    title: 3D multi-system Bayesian calibration with energy conservation to study
+      rapidity-dependent dynamics of nuclear collisions
+    authors: Mankolli, Andi et al.
+    venue: EPJ Web Conf., 05010
+    doi: 10.1051/epjconf/202429605010
+    arxiv: '2401.00402'
+  - year: 2024
+    title: Transverse momentum fluctuation in ultra-central Pb+Pb collision at the
+      LHC
+    authors: Samanta, Rupam et al.
+    venue: EPJ Web Conf., 05006
+    doi: 10.1051/epjconf/202429605006
+    arxiv: '2312.10161'
+  - year: 2024
+    title: Studying short-range nuclear correlations using relativistic heavy-ion
+      collisions
+    authors: Luzum, Matthew et al.
+    venue: EPJ Web Conf., 10011
+    doi: 10.1051/epjconf/202429610011
+    arxiv: '2312.10129'
+  - year: 2024
+    title: Hybrid Hadronization of Jet Showers from $e^++𝑒^−$ to $𝐴 + 𝐴$ with JETSCAPE
+    authors: Angerami, Aaron et al.
+    venue: PoS, 166
+    doi: 10.22323/1.438.0166
+    arxiv: '2310.20631'
+  - year: 2024
+    title: Power corrections to the photon polarization tensor in a hot and dense
+      medium of massive fermions
+    authors: Ferreira, Osvaldo, Fraga, Eduardo S.
+    venue: Phys.Rev.D, 016025
+    doi: 10.1103/PhysRevD.109.016025
+    arxiv: '2309.06524'
+  - year: 2024
+    title: A multistage framework for studying the evolution of jets and high-pT probes
+      in small collision systems
+    authors: Jetscape et al.
+    venue: PoS, 128
+    doi: 10.22323/1.438.0128
+    arxiv: '2308.02650'
+  - year: 2024
+    title: Multiscale evolution of heavy flavor in the QGP
+    authors: Jetscape et al.
+    venue: PoS, 100
+    doi: 10.22323/1.438.0100
+    arxiv: '2307.09640'
+  - year: 2024
+    title: New metric improving Bayesian calibration of a multistage approach studying
+      hadron and inclusive jet suppression
+    authors: Fan, W. et al.
+    venue: Phys.Rev.C, 064903
+    doi: 10.1103/PhysRevC.109.064903
+    arxiv: '2307.09641'
+  - year: 2024
+    title: Effects of multi-scale jet-medium interactions on jet substructures
+    authors: Jetscape et al.
+    venue: PoS, 165
+    doi: 10.22323/1.438.0165
+    arxiv: '2307.08125'
+  - year: 2023
+    title: Non-Gaussian transverse momentum fluctuations from impact parameter fluctuations
+    authors: Samanta, Rupam et al.
+    venue: Phys.Rev.C, 024908
+    doi: 10.1103/PhysRevC.108.024908
+    arxiv: '2306.09294'
+  - year: 2023
+    title: Hot QCD White Paper
+    authors: Arslandok, M. et al.
+    arxiv: '2303.17254'
+  - year: 2024
+    title: Theoretical and experimental constraints for the equation of state of dense
+      and hot matter
+    authors: Kumar, Rajesh et al.
+    venue: Living Rev.Rel., 3
+    doi: 10.1007/s41114-024-00049-6
+    arxiv: '2303.17021'
+  - year: 2024
+    title: Thermalization at the femtoscale seen in high-energy Pb+Pb collisions
+    authors: Samanta, Rupam et al.
+    venue: Phys.Rev.C, L051902
+    doi: 10.1103/PhysRevC.109.L051902
+    arxiv: '2303.15323'
+  - year: 2023
+    title: Methods for systematic study of nuclear structure in high-energy collisions
+    authors: Luzum, Matthew, Hippert, Mauricio, Ollitrault, Jean-Yves
+    venue: Eur.Phys.J.A, 110
+    doi: 10.1140/epja/s10050-023-01021-8
+    arxiv: '2302.14026'
+  - year: 2024
+    title: Hard jet substructure in a multistage approach
+    authors: Tachibana, Y. et al.
+    venue: Phys.Rev.C, 044907
+    doi: 10.1103/PhysRevC.110.044907
+    arxiv: '2301.02485'
+  - year: 2023
+    title: Comprehensive Study of Multi-scale Jet–Medium Interaction
+    authors: Tachibana, Yasuki et al.
+    venue: Acta Phys.Polon.Supp., A50
+    doi: 10.5506/APhysPolBSupp.16.1-A50
+    arxiv: '2212.12188'
+  - year: 2022
+    title: Studying the impact of the nucleon size in relativistic heavy-ion collisions
+    authors: Picchetti, João Paulo
+    arxiv: '2210.03186'
+  - year: 2024
+    title: Imaging the initial condition of heavy-ion collisions and nuclear structure
+      across the nuclide chart
+    authors: Jia, Jiangyong et al.
+    venue: Nucl.Sci.Tech., 220
+    doi: 10.1007/s41365-024-01589-w
+    arxiv: '2209.11042'
+  - year: 2023
+    title: Strange magnetars admixed with fermionic dark matter
+    authors: Ferreira, Osvaldo, Fraga, Eduardo S.
+    venue: JCAP, 012
+    doi: 10.1088/1475-7516/2023/04/012
+    arxiv: '2209.10959'
+  - year: 2023
+    title: Multiscale evolution of charmed particles in a nuclear medium
+    authors: Fan, W. et al.
+    venue: Phys.Rev.C, 054901
+    doi: 10.1103/PhysRevC.107.054901
+    arxiv: '2208.00983'
+  - year: 2023
+    title: Inclusive jet and hadron suppression in a multistage approach
+    authors: Kumar, A. et al.
+    venue: Phys.Rev.C, 034911
+    doi: 10.1103/PhysRevC.107.034911
+    arxiv: '2204.01163'
+  - year: 2022
+    title: Role of bulk viscosity in deuteron production in ultrarelativistic nuclear
+      collisions
+    authors: Everett, D. et al.
+    venue: Phys.Rev.C, 064901
+    doi: 10.1103/PhysRevC.106.064901
+    arxiv: '2203.08286'
+  - year: 2021
+    title: Determining the jet transport coefficient $\hat{q}$ of the quark-gluon
+      plasma using Bayesian parameter estimation
+    authors: Mulligan, J. et al.
+    arxiv: '2106.11348'
+  - year: 2021
+    title: Predictions for flow harmonic distributions and flow factorization ratios
+      at RHIC
+    authors: Barbosa, Leonardo et al.
+    arxiv: '2105.12792'
+  - year: 2021
+    title: Multisystem Bayesian constraints on the transport coefficients of QCD matter
+    authors: Everett, D. et al.
+    venue: Phys.Rev.C, 054904
+    doi: 10.1103/PhysRevC.103.054904
+    arxiv: '2011.01430'
+  - year: 2021
+    title: Phenomenological constraints on the transport properties of QCD matter
+      with data-driven model averaging
+    authors: Everett, D. et al.
+    venue: Phys.Rev.Lett., 242301
+    doi: 10.1103/PhysRevLett.126.242301
+    arxiv: '2010.03928'
+  - year: 2021
+    title: Probing the multi-scale dynamical interaction between heavy quarks and
+      the QGP using JETSCAPE
+    authors: Fan, Wenkai et al.
+    venue: PoS, 067
+    doi: 10.22323/1.387.0067
+    arxiv: '2009.04946'
+  - year: 2021
+    title: Constraints on jet quenching from a multi-stage energy-loss approach
+    authors: Park, Chanwook et al.
+    venue: PoS, 150
+    doi: 10.22323/1.387.0150
+    arxiv: '2009.02410'
+  - year: 2020
+    title: Possible octupole deformation of $^{208}$Pb and the ultracentral $v_2$
+      to $v_3$ puzzle
+    authors: Carzon, Patrick et al.
+    venue: Phys.Rev.C, 054905
+    doi: 10.1103/PhysRevC.102.054905
+    arxiv: '2007.00780'
+  - year: 2021
+    title: Momentum-dependent flow fluctuations as a hydrodynamic response to initial
+      geometry
+    authors: Hippert, Maurício et al.
+    venue: Nucl.Phys.A, 121982
+    doi: 10.1016/j.nuclphysa.2020.121982
+    arxiv: '2003.01147'
+  - year: 2021
+    title: System response to the initial energy-momentum tensor in relativistic heavy-ion
+      collisions
+    authors: Sousa, Jefferson, Noronha, Jorge, Luzum, Matthew
+    venue: Nucl.Phys.A, 121890
+    doi: 10.1016/j.nuclphysa.2020.121890
+    arxiv: '2002.12735'
+  - year: 2021
+    title: Hydrodynamic response to jets with a source based on causal diffusion
+    authors: Tachibana, Y. et al.
+    venue: Nucl.Phys.A, 121920
+    doi: 10.1016/j.nuclphysa.2020.121920
+    arxiv: '2002.12250'
+  - year: 2021
+    title: Effects of initial state fluctuations on the mean transverse momentum
+    authors: Gardim, Fernando G. et al.
+    venue: Nucl.Phys.A, 121999
+    doi: 10.1016/j.nuclphysa.2020.121999
+    arxiv: '2002.07008'
+  - year: 2021
+    title: Jet quenching in a multi-stage Monte Carlo approach
+    authors: Kumar, Amit et al.
+    venue: Nucl.Phys.A, 122009
+    doi: 10.1016/j.nuclphysa.2020.122009
+    arxiv: '2002.07124'
+  - year: 2021
+    title: Multi-stage evolution of heavy quarks in the quark-gluon plasma
+    authors: Vujanovic, Gojko et al.
+    venue: Nucl.Phys.A, 121965
+    doi: 10.1016/j.nuclphysa.2020.121965
+    arxiv: '2002.06643'
+  - year: 2021
+    title: Revisiting Bayesian constraints on the transport coefficients of QCD
+    authors: Paquet, Jean-François et al.
+    venue: Nucl.Phys.A, 121749
+    doi: 10.1016/j.nuclphysa.2020.121749
+    arxiv: '2002.05337'
+  - year: 2021
+    title: $p_T$-dependent multiplicity fluctuations from PCA and initial conditions
+    authors: Gardim, Fernando G. et al.
+    venue: Nucl.Phys.A, 121892
+    doi: 10.1016/j.nuclphysa.2020.121892
+    arxiv: '2002.01747'
+  - year: 2020
+    title: Evolution of fluctuations in the initial state of heavy-ion collisions
+      from RHIC to LHC
+    authors: Giacalone, Giuliano et al.
+    venue: Springer Proc.Phys., 453
+    doi: 10.1007/978-3-030-53448-6_71
+    arxiv: '1911.04720'
+  - year: 2020
+    title: Rapidity-dependent eccentricity scaling in relativistic heavy-ion collisions
+    authors: Franco, Rodrigo, Luzum, Matthew
+    venue: Phys.Lett.B, 135518
+    doi: 10.1016/j.physletb.2020.135518
+    arxiv: '1910.14598'
+  - year: 2020
+    title: Thermodynamics of hot strong-interaction matter from ultrarelativistic
+      nuclear collisions
+    authors: Gardim, Fernando G. et al.
+    venue: Nature Phys., 615
+    doi: 10.1038/s41567-020-0846-4
+    arxiv: '1908.09728'
+  - year: 2019
+    title: $p_T$-dependent particle number fluctuations from principal-component analyses
+      in hydrodynamic simulations of heavy-ion collisions
+    authors: Gardim, Fernando G. et al.
+    venue: Phys.Rev.C, 054905
+    doi: 10.1103/PhysRevC.100.054905
+    arxiv: '1906.03045'
+  - year: 2019
+    title: Bulk quantities in nuclear collisions from running coupling $k_{T}$-factorization
+      and hybrid simulations
+    authors: Giannini, Andre V., Grassi, Frédérique, Luzum, Matthew
+    venue: Phys.Rev.C, 014912
+    doi: 10.1103/PhysRevC.100.014912
+    arxiv: '1904.11488'
+  - year: 2019
+    title: Relating eccentricity fluctuations to density fluctuations in heavy-ion
+      collisions
+    authors: Bhalerao, Rajeev S. et al.
+    venue: Acta Phys.Polon.B, 1165
+    doi: 10.5506/APhysPolB.50.1165
+    arxiv: '1903.06366'
+  - year: 2019
+    title: Fluctuations in heavy-ion collisions generated by QCD interactions in the
+      color glass condensate effective theory
+    authors: Giacalone, Giuliano et al.
+    venue: Phys.Rev.C, 024905
+    doi: 10.1103/PhysRevC.100.024905
+    arxiv: '1902.07168'
+  - year: 2019
+    title: Centrality and energy dependence of charged particles in p+A and A+A collisions
+      from running coupling $k_{T}$-factorization
+    authors: Dumitru, Adrian et al.
+    venue: Acta Phys.Polon.Supp., 973
+    doi: 10.5506/APhysPolBSupp.12.973
+    arxiv: '1811.07696'
+  - year: 2019
+    title: Testing a best-fit hydrodynamical model using PCA
+    authors: Nunes da Silva, Tiago et al.
+    venue: MDPI Proc., 5
+    doi: 10.3390/proceedings2019010005
+    arxiv: '1811.05048'
+  - year: 2019
+    title: Confronting hydrodynamic predictions with Xe-Xe data
+    authors: Giacalone, Giuliano et al.
+    venue: Nucl.Phys.A, 371
+    doi: 10.1016/j.nuclphysa.2018.09.065
+    arxiv: '1807.05557'
+  - year: 2019
+    title: Probing the transverse size of initial inhomogeneities with flow observables
+    authors: Gardim, Fernando G. et al.
+    venue: Nucl.Phys.A, 419
+    doi: 10.1016/j.nuclphysa.2018.10.089
+    arxiv: '1807.05213'
 - category: Theses
   items:
-    - year: 2022
-      title: Studying the impact of the nucleon size in relativistic heavy-ion collisions
-      authors: Joao Paulo Picchetti
-      venue: MSc thesis, USP
-      url: https://repositorio.unicamp.br/acervo/detalhe/1254908
+  - year: 2022
+    title: Studying the impact of the nucleon size in relativistic heavy-ion collisions
+    authors: Joao Paulo Picchetti
+    venue: MSc thesis, USP
+    url: https://repositorio.unicamp.br/acervo/detalhe/1254908

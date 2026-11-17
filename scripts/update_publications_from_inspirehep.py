@@ -9,6 +9,9 @@ Usage:
   # Search by active members (default)
   python scripts/update_publications_from_inspirehep.py
 
+  # Only include papers from a given year onward
+  python scripts/update_publications_from_inspirehep.py --since-year 2019
+
   # Search by a specific arXiv ID
   python scripts/update_publications_from_inspirehep.py --arxiv 2311.02210
 
@@ -97,6 +100,8 @@ def parse_inspire_record(record):
     title = None
     if meta.get("titles"):
         title = meta["titles"][0].get("title")
+        if title:
+            title = re.sub(r"<[^>]+>", "", title).strip()
 
     # Authors
     authors = ""
@@ -170,10 +175,12 @@ def save_yaml(data):
         f.write(content)
 
 
-def find_entry_by_arxiv(yaml_data, arxiv_id):
+def find_existing_entry(yaml_data, arxiv_id, doi=None):
     for category in yaml_data:
         for item in category.get("items", []):
-            if str(item.get("arxiv", "")) == str(arxiv_id):
+            if arxiv_id and str(item.get("arxiv", "")) == str(arxiv_id):
+                return category, item
+            if doi and str(item.get("doi", "")).lower() == str(doi).lower():
                 return category, item
     return None, None
 
@@ -188,7 +195,7 @@ def merge_entries(existing, new):
 
 # ── update logic ─────────────────────────────────────────────────────────────
 
-def update_publications(hits, dry_run=False):
+def update_publications(hits, dry_run=False, since_year=None):
     """Merge INSPIREHEP records into publications.yml."""
     yaml_data = load_yaml()
     added, updated = [], []
@@ -197,9 +204,11 @@ def update_publications(hits, dry_run=False):
         entry = parse_inspire_record(record)
         if not entry.get("arxiv"):
             continue  # need arXiv ID as unique key
+        if since_year and entry.get("year", 0) < since_year:
+            continue
 
         arxiv_id = entry["arxiv"]
-        category, existing = find_entry_by_arxiv(yaml_data, arxiv_id)
+        category, existing = find_existing_entry(yaml_data, arxiv_id, entry.get("doi"))
 
         if existing:
             old = dict(existing)
@@ -291,6 +300,12 @@ def main():
         help="Show what would change without writing files",
     )
     parser.add_argument(
+        "--since-year",
+        type=int,
+        default=None,
+        help="Only add/update papers published in or after this year",
+    )
+    parser.add_argument(
         "--size",
         type=int,
         default=200,
@@ -316,7 +331,7 @@ def main():
         query = build_member_query(active)
 
     hits = fetch_inspire(query, size=args.size)
-    update_publications(hits, dry_run=args.dry_run)
+    update_publications(hits, dry_run=args.dry_run, since_year=args.since_year)
 
 
 if __name__ == "__main__":

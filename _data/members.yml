@@ -27,6 +27,8 @@
   members:
     - name: Osvaldo Ferreira Neto
       active: true
+      inspire_bai: Osvaldo.Ferreira.1
+      orcid: 0000-0002-6711-8308
       lattes: "6790966492250263"
     - name: Tiago José Nunes da Silva
       active: false
@@ -45,9 +47,12 @@
   members:
     - name: João Paulo Picchetti
       active: true
+      inspire_bai: J.P.Picchetti.1
+      orcid: 0000-0003-3273-9726
       lattes: ""
     - name: Thiago Siqueira Domingues
       active: true
+      orcid: 0000-0001-6756-8600
       lattes: "4092459866318436"
       inspire_bai: T.S.Domingues.1
     - name: Genilson Alves Cardoso da Silva
@@ -55,6 +60,7 @@
       lattes: ""
     - name: Giuliano de Souza Dias
       active: true
+      orcid: 0009-0007-7397-9087
       lattes: ""
     - name: Liner de Souza Santos
       active: false
@@ -73,6 +79,8 @@
       lattes: ""
     - name: Luiza Fernanda Perin
       active: true
+      inspire_bai: L.Perin.1
+      orcid: 0000-0003-3954-5414
       lattes: ""
     - name: Matheus Colmenero
       active: true
@@ -89,9 +97,10 @@
 
 - role: Undergraduate Researchers
   members:
-    - name: Giulia Ghio 
+    - name: Giulia Ghio
       active: true
       lattes: ""
     - name: Luiz Fernando Vilkelis Aparicio
       active: true
+      orcid: 0009-0007-3009-0501
       lattes: ""

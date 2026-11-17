@@ -4,9 +4,6 @@ title: Members
 permalink: /members/
 ---
 
-This page is rendered from `/_data/members.yml`.
-Set `active: false` for a member to move them to the Former Members section automatically.
-
 ## Current Members
 
 {% for group in site.data.members %}
@@ -15,13 +12,23 @@ Set `active: false` for a member to move them to the Former Members section auto
 
 ### {{ group.role }}
 
+<div class="member-grid">
 {% for m in active_members %}
-- {% if m.url %}[{{ m.name }}]({{ m.url }}){% else %}{{ m.name }}{% endif %}{% if m.title %} — {{ m.title }}{% endif %}
-  {%- if m.inspire_bai or m.orcid or m.lattes %}
-  <br>
-  {% if m.inspire_bai %}<a href="https://inspirehep.net/search?p=a+{{ m.inspire_bai }}&of=hb">INSPIRE</a>{% endif %}{% if m.orcid %}{% if m.inspire_bai %} · {% endif %}<a href="https://orcid.org/{{ m.orcid }}">ORCID</a>{% endif %}{% if m.lattes and m.lattes != "" %}{% if m.inspire_bai or m.orcid %} · {% endif %}<a href="https://lattes.cnpq.br/{{ m.lattes }}">Lattes</a>{% endif %}
-  {% endif %}
+  <div class="member-card">
+    <div class="member-name">
+      {% if m.url %}<a href="{{ m.url }}">{{ m.name }}</a>{% else %}{{ m.name }}{% endif %}
+    </div>
+    {% if m.title %}<div class="member-meta">{{ m.title }}</div>{% endif %}
+    {% if m.inspire_bai or m.orcid or (m.lattes and m.lattes != "") %}
+    <div class="member-links">
+      {% if m.inspire_bai %}<a href="https://inspirehep.net/literature?q=a%20{{ m.inspire_bai }}">INSPIRE</a>{% endif %}
+      {% if m.orcid %}<a href="https://orcid.org/{{ m.orcid }}">ORCID</a>{% endif %}
+      {% if m.lattes and m.lattes != "" %}<a href="https://lattes.cnpq.br/{{ m.lattes }}">Lattes</a>{% endif %}
+    </div>
+    {% endif %}
+  </div>
 {% endfor %}
+</div>
 
   {% endif %}
 {% endfor %}
@@ -42,7 +49,3 @@ Set `active: false` for a member to move them to the Former Members section auto
 
   {% endif %}
 {% endfor %}
-
----
-
-_To update this list, edit [`/_data/members.yml`](https://github.com/IFUSP-Heavy-Ions/IFUSP-Heavy-Ions.github.io/blob/main/_data/members.yml) and open a pull request._

@@ -47,6 +47,9 @@ pip install requests pyyaml
 # Fetch all papers from active members (uses inspire_bai fields in members.yml)
 python scripts/update_publications_from_inspirehep.py
 
+# Only include papers from a given year onward
+python scripts/update_publications_from_inspirehep.py --since-year 2019
+
 # Preview without writing
 python scripts/update_publications_from_inspirehep.py --dry-run
 

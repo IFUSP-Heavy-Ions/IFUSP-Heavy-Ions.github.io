@@ -39,3 +39,7 @@ We use relativistic heavy-ion collisions as a laboratory to study QCD matter bey
 
 - [The ExTrEMe Collaboration](https://ExTrEMe-Collaboration.github.io/) — Coordinator
 - [JETSCAPE Collaboration](https://jetscape.org/) — Convener of [SIMS Working Group](https://jetscape.org/sims/)
+
+## Prospective Members
+
+We welcome inquiries from prospective undergraduate, Master's, PhD, and postdoctoral researchers interested in relativistic heavy-ion physics. See the [Contact](/contact/) page for details on how to get in touch and funding opportunities.
