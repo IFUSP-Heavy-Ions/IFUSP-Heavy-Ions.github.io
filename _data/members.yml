@@ -57,6 +57,7 @@
     - name: Gabriel Alves de Lima Guimarães
       active: true
       lattes: ""
+      inspire_bai: G.M.Guimaraes.1
     - name: João Paulo Picchetti
       active: true
       inspire_bai: J.P.Picchetti.1
@@ -85,6 +86,7 @@
       note: PhD, USP
     - name: Jefferson Arthur Dias de Sousa
       active: false
+      inspire_bai: J.B.Sousa.1
       note: PhD, USP
 
 - role: Master's Students
@@ -94,6 +96,7 @@
       lattes: ""
     - name: Gabriel Alves de Lima Guimarães
       active: false
+      inspire_bai: G.M.Guimaraes.1
       lattes: ""
       note: MSc, USP (later PhD student in group)
     - name: Luiza Fernanda Perin
@@ -110,15 +113,19 @@
       note: MSc, USP
     - name: Jefferson Arthur Dias de Sousa
       active: false
-      note: MSc, USP (later PhD)
+      inspire_bai: J.B.Sousa.1
+      note: MSc, USP (later PhD student in group)
     - name: Thiago Siqueira Domingues
       active: false
+      orcid: 0000-0001-6756-8600
+      lattes: "4092459866318436"
+      inspire_bai: T.S.Domingues.1
       note: MSc, USP (later PhD student in group)
 
 - role: Undergraduate Researchers
   members:
     - name: Giulia Ghio
-      active: true
+      active: false
       lattes: ""
     - name: Luiz Fernando Vilkelis Aparicio
       active: true
