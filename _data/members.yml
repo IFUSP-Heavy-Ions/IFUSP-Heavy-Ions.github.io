@@ -54,6 +54,9 @@
 
 - role: PhD Students
   members:
+    - name: Gabriel Alves de Lima Guimarães
+      active: true
+      lattes: ""
     - name: João Paulo Picchetti
       active: true
       inspire_bai: J.P.Picchetti.1
@@ -86,9 +89,13 @@
 
 - role: Master's Students
   members:
-    - name: Gabriel Alves de Lima Guimarães
+    - name: Nara Ávila Moraes
       active: true
       lattes: ""
+    - name: Gabriel Alves de Lima Guimarães
+      active: false
+      lattes: ""
+      note: MSc, USP (later PhD student in group)
     - name: Luiza Fernanda Perin
       active: true
       inspire_bai: L.Perin.1
