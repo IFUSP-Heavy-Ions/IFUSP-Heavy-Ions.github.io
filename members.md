@@ -44,7 +44,7 @@ permalink: /members/
 ### {{ group.role }}
 
 {% for m in former_members %}
-- {% if m.url %}[{{ m.name }}]({{ m.url }}){% else %}{{ m.name }}{% endif %}{% if m.note %} — {{ m.note }}{% endif %}
+- {% if m.url %}[{{ m.name }}]({{ m.url }}){% else %}{{ m.name }}{% endif %}{% if m.note %} — {{ m.note }}{% endif %}{% if m.inspire_bai or m.orcid or (m.lattes and m.lattes != "") %} <span class="member-links-inline">({% if m.inspire_bai %}<a href="https://inspirehep.net/literature?q=a%20{{ m.inspire_bai }}">INSPIRE</a>{% endif %}{% if m.orcid %}{% if m.inspire_bai %} · {% endif %}<a href="https://orcid.org/{{ m.orcid }}">ORCID</a>{% endif %}{% if m.lattes and m.lattes != "" %}{% if m.inspire_bai or m.orcid %} · {% endif %}<a href="https://lattes.cnpq.br/{{ m.lattes }}">Lattes</a>{% endif %})</span>{% endif %}
 {% endfor %}
 
   {% endif %}

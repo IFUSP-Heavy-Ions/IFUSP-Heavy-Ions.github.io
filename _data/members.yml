@@ -32,15 +32,24 @@
       lattes: "6790966492250263"
     - name: Tiago José Nunes da Silva
       active: false
+      inspire_bai: T.J.Nunes.da.Silva.1
+      orcid: 0000-0001-8044-4055
+      url: https://tjnunes.paginas.ufsc.br
       note: Now Professor at UFSC
     - name: Andre Veiga Giannini
       active: false
+      inspire_bai: A.V.Giannini.1
+      orcid: 0000-0003-0123-6472
       note: Now Professor at UFGD
     - name: Maurício Hippert Teixeira
       active: false
+      inspire_bai: Mauricio.Hippert.1
+      orcid: 0000-0001-5802-3908
       note: Now Postdoc at UIUC
     - name: Willian Matioli Serenone
       active: false
+      inspire_bai: W.M.Serenone.1
+      orcid: 0000-0002-9873-9713
       note: Postdoc, Unicamp
 
 - role: PhD Students
@@ -64,9 +73,12 @@
       lattes: ""
     - name: Liner de Souza Santos
       active: false
+      inspire_bai: L.d.Santos.1
+      orcid: 0000-0003-3240-6139
       note: PhD, USP
     - name: Arthur Lopes
       active: false
+      orcid: 0000-0002-1560-5171
       note: PhD, USP
     - name: Jefferson Arthur Dias de Sousa
       active: false
@@ -87,6 +99,7 @@
       lattes: ""
     - name: Rodrigo Guanciale Franco
       active: false
+      orcid: 0000-0002-5557-9836
       note: MSc, USP
     - name: Jefferson Arthur Dias de Sousa
       active: false
