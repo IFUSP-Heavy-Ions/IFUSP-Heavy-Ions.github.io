@@ -124,6 +124,10 @@
 
 - role: Undergraduate Researchers
   members:
+    - name: Rodrigo Guanciale Franco
+      active: false
+      orcid: 0000-0002-5557-9836
+      note: (Later Master student in group)
     - name: Giulia Ghio
       active: false
       lattes: ""
