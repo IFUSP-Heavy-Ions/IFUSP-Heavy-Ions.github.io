@@ -14,12 +14,26 @@
 
 - date: 2026-09
   speaker: Matthew Luzum
-  type: Talk
+  type: Invited talk
   title: Direct Constraints on the Nuclear Hamiltonian from Relativistic Light-Ion
     Collisions
   event: EMMI Workshop on Light-Ion Collisions 2026
   location: Heidelberg, Germany
   url: https://indico.gsi.de/event/25022/contributions/101806/
+- date: 2026-01
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Longitudinal dynamics of large and small systems from a 3D Bayesian calibration
+    of RHIC collision data
+  event: Theory Seminar, Nikhef
+  location: Amsterdam, Netherlands
+- date: 2026-01
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Longitudinal dynamics of large and small systems from a 3D Bayesian calibration
+    of RHIC collision data
+  event: IGFAE Seminar, Universidade de Santiago de Compostela
+  location: Santiago de Compostela, Spain
 - date: 2025-12
   speaker: Matthew Luzum
   type: Seminar
@@ -45,42 +59,122 @@
   url: https://github.com/ThiagoSDomingues/Universality_Github/blob/main/presentations/RETINHA_32.pdf
 - date: 2025-09
   speaker: Matthew Luzum
-  type: Talk
+  type: Invited talk
   title: Exploring the shape of the transverse momentum spectra
   event: Quark-Gluon Plasma in Heavy-Ion Collisions
   location: Beijing, China
   event_url: https://indico.ihep.ac.cn/event/24981/
+- date: 2025-09
+  speaker: Matthew Luzum
+  type: Plenary talk
+  title: What have global Bayesian fits taught us about the initial state?
+  event: VIII International Conference on the Initial Stages in High-Energy Nuclear
+    Collisions (Initial Stages 2025)
+  location: Taipei, Taiwan
+  event_url: https://indico.cern.ch/event/1479384/overview
+- date: 2025-04
+  speaker: Matthew Luzum
+  type: Colloquium
+  title: O mundo de simetrias
+  event: Convite à Física, IFUSP
+  location: USP, São Paulo, Brazil
+- date: 2025-04
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Relativistic (a)causality in hydrodynamics and its effect on Bayesian analyses
+  event: Foundations and Applications of Relativistic Hydrodynamics
+  location: GGI, Florence, Italy
+  event_url: https://www.ggi.infn.it/showevent.pl?id=517
+- date: 2025-04
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Initial momentum/stress and conserved charges to final flow in a heavy-ion
+    collision
+  event: Quark Matter 2025
+  location: Frankfurt, Germany
+  event_url: https://indico.cern.ch/event/1334113/
+- date: 2025-01
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Nuclear structure from ultrarelativistic collisions
+  event: Nuclear Theory / RBRC Seminar, Brookhaven National Laboratory
+  location: Upton, NY, USA
+- date: 2025-01
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Relativistic (a)causality in hydrodynamics and its effect on Bayesian analyses
+  event: 'Hot Jets: Advancing the Understanding of High Temperature QCD with Jets'
+  location: UIUC, Urbana, IL, USA
+  event_url: https://indico.global/event/1374/
+- date: 2024-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'High-energy nuclear physics: strong interactions under extreme conditions'
+  event: DFMA Ágora Meeting, IFUSP
+  location: USP, São Paulo, Brazil
+- date: 2024-04
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Hydrodynamics and nuclear structure
+  event: Exploring Nuclear Physics Across Energy Scales 2024
+  location: Beijing, China
+  event_url: https://indico.ihep.ac.cn/event/20877/
 - date: 2023-09
-  speaker: Willian Matioli Serenone
+  speaker: Matthew Luzum
   type: Talk
-  title: QGP vortex rings as a new probe for jet-induced medium response and longitudinal
-    dynamics
+  title: Using new methods for systematic study of nuclear structure in high-energy
+    collisions to probe the effect of short-range correlations
   event: Quark Matter 2023
   location: Houston, TX, USA
-  url: https://indico.cern.ch/event/1139644/contributions/5453466/
-- date: 2023-09
-  speaker: Tiago José Nunes da Silva
+  url: https://indico.cern.ch/event/1139644/contributions/5453461/
+- date: 2023-07
+  speaker: Matthew Luzum
   type: Talk
-  title: Causality Violations in Hybrid Simulations of Large and Small Systems
-  event: III Encontro de Primavera da SBF
-  location: UFF, Niterói, Brazil
-  url: https://sec.sbfisica.org.br/eventos/epsbf/iii/sys/resumos/R0343-1.pdf
-  event_url: https://www1.fisica.org.br/~epsbf/iii/index.php/pt/
+  title: Hydrodynamic modeling in heavy-ion collisions (discussion leader)
+  event: 'KITP Program: The Many Faces of Relativistic Fluid Dynamics'
+  location: KITP, Santa Barbara, CA, USA
+  event_url: https://online.kitp.ucsb.edu/online/relfluids23/
+- date: 2023-06
+  speaker: Matthew Luzum
+  type: Talk
+  title: 'Methods for Systematic Study of Nuclear Structure in High-Energy Collisions.
+    Or: Changing Nuclei by Shifting Nucleons'
+  event: VII International Conference on the Initial Stages of High-Energy Nuclear
+    Collisions (Initial Stages 2023)
+  location: Copenhagen, Denmark
+  event_url: https://indico.cern.ch/event/1043736/timetable/#20230619
+- date: 2023-05
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Bayesian methods in high-energy nuclear collisions; Bayesian inference and
+    recent phenomenological constraints on QGP properties
+  event: XXI Jorge André Swieca Summer School on Theoretical Nuclear Physics
+  location: Angra dos Reis, Brazil
+  event_url: http://www1.fisica.org.br/~evjasfnt/xxi/index.php/pt/programa
+- date: 2023-02
+  speaker: Matthew Luzum
+  type: Talk
+  title: Methods for systematic study of nuclear structure in high-energy collisions;
+    Or, changing nuclei by shifting nucleons
+  event: 'INT Workshop: Intersection of Nuclear Structure and High-Energy Nuclear
+    Collisions'
+  location: INT, Seattle, WA, USA
+  event_url: https://www.int.washington.edu/programs-and-workshops/23-1a
+- date: 2022-10
+  speaker: Matthew Luzum
+  type: Talk
+  title: Signatures of pre-hydrodynamic evolution; Or, the importance of conformal
+    symmetry breaking
+  event: 'From Initial Gluons to Hydrodynamics: Gluons Inside Hadrons and Their Thermalization'
+  location: Institut Pascal, Orsay, France
+  event_url: https://indico.in2p3.fr/event/27101/
 - date: 2022-09
-  speaker: Tiago José Nunes da Silva
+  speaker: Matthew Luzum
   type: Talk
-  title: Evolving hybrid descriptions of the quark-gluon plasma in heavy-ion collisions
-  event: XLII Encontro Nacional de Física de Partículas e Campos (ENFPC)
-  location: Brazil
-  coauthors:
-  - D. D. Chinellato
-  - A. V. Giannini
-  - M. N. Ferreira
-  - J. Takahashi
-  - G. S. Denicol
-  - M. Hippert
-  - J. Noronha
-  - M. Luzum
+  title: Opportunities for QGP studies from Bayesian analyses with several ions
+  event: 'ESNT Workshop: Deciphering Nuclear Phenomenology Across Energy Scales'
+  location: CEA Saclay, France
+  event_url: https://esnt.cea.fr/Phocea/Page/index.php?id=107
 - date: 2022-06
   speaker: Matthew Luzum
   type: Invited talk
@@ -88,12 +182,6 @@
   event: Strong and Electro-Weak Matter 2022 (SEWM 2022)
   location: Paris, France
   event_url: https://indico.in2p3.fr/event/26461/
-- date: 2022-06
-  speaker: Andre Veiga Giannini
-  type: Seminar
-  title: Assessing the ultra-central flow puzzle in the Bayesian era
-  event: Physics Department Seminar, Universidade Federal de Pelotas
-  location: UFPel, Pelotas, Brazil
 - date: 2022-05
   speaker: Matthew Luzum
   type: Invited talk
@@ -102,20 +190,6 @@
   event: EMMI Rapid Reaction Task Force (RRTF)
   location: Heidelberg, Germany
   event_url: https://indico.gsi.de/event/14430/
-- date: 2022-05
-  speaker: Andre Veiga Giannini
-  type: Talk
-  title: Phenomenology of high energy nuclear collisions with hybrid hydrodynamic
-    simulations
-  event: XXIX Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
-  location: Rio de Janeiro, Brazil
-- date: 2022-04
-  speaker: Andre Veiga Giannini
-  type: Poster
-  title: Assessing the ultra-central flow puzzle in the Bayesian era
-  event: Quark Matter 2022
-  location: Kraków, Poland
-  url: https://indico.cern.ch/event/895086/contributions/4712297/
 - date: 2022-04
   speaker: Matthew Luzum
   type: Poster
@@ -124,171 +198,392 @@
   event: Quark Matter 2022
   location: Kraków, Poland
   event_url: https://indico.cern.ch/event/895086/
-- date: 2022-04
-  speaker: Andre Veiga Giannini
-  type: Talk
-  title: 'Bayesian analysis meets ultra-central collisions: assessing the anisotropic
-    flow puzzle'
-  event: Workshop RENAFAE 2022
-  location: Brazil
-  url: https://indico.cern.ch/event/1124802/contributions/4834443/
-- date: 2021-11
-  speaker: Andre Veiga Giannini
-  type: Poster
-  title: 'Phenomenology of small nuclear collision systems in the Color Glass Condensate:
-    beyond the Gaussian approximation'
-  event: XLIV Reunião de Trabalho sobre Física Nuclear no Brasil (RTFNB)
-  location: São Paulo, Brazil
-  event_url: https://sec.sbfisica.org.br/eventos/rtfnb/xliv/programa/trabalhos.asp?sesId=1
-- date: 2021-08
-  speaker: Willian Matioli Serenone
-  type: Talk
-  title: Hard parton thermalization as a source of hadron polarization
-  event: 'INT Program 21-2b: Probing QCD at High Energy and Density with Jets'
-  location: Institute for Nuclear Theory, Seattle, WA, USA
-  event_url: https://sites.google.com/uw.edu/int/programs/21-2b
-- date: 2021-05
-  speaker: Willian Matioli Serenone
-  type: Seminar
-  title: Lambda polarization from thermalized jet energy
-  event: Theory of Hadronic Matter under Extreme Conditions Seminar, BLTP-JINR
-  location: Dubna, Russia
-  event_url: http://theor.jinr.ru/~klopot/seminarTHMUEC.html
-- date: 2021-05
-  speaker: Willian Matioli Serenone
-  type: Talk
-  title: Lambda polarization from the thermalized jet energy and momentum
-  event: Workshop on QGP Phenomenology
-  location: Tehran, Iran
-  url: https://indico.cern.ch/event/1021608/contributions/4294780/
-- date: 2021-03
-  speaker: Tiago José Nunes da Silva
-  type: Talk
-  title: Initial conditions for hydrodynamics with Trento and Kompost
-  event: ExTrEMe Hydro Workshop
-  location: São Paulo, Brazil
-  event_url: https://indico.cern.ch/event/1009763/timetable/
-- date: 2021-03
-  speaker: Tiago José Nunes da Silva
-  type: Seminar
-  title: Efeitos pré-hidrodinâmicos em colisões ultra-relativísticas de íons pesados
-  event: Physics Department Seminar, Universidade Federal de Santa Catarina
-  location: UFSC, Florianópolis, Brazil
-- date: 2021-01
-  speaker: Tiago José Nunes da Silva
-  type: Talk
-  title: Pre-hydrodynamic evolution and conformal symmetry in small systems
-  event: Initial Stages 2021
-  location: Online
-  url: https://indico.cern.ch/event/854124/contributions/4145541/
-- date: 2021-01
-  speaker: Maurício Hippert Teixeira
-  type: Talk
-  title: Fixing the nuclear charge density with finite nucleons
-  event: Initial Stages 2021
-  location: Online
-  url: https://indico.cern.ch/event/854124/contributions/4152883/
-- date: 2021-01
-  speaker: Willian Matioli Serenone
-  type: Poster
-  title: Polarization in heavy-ion collisions via local initial energy deposition
-  event: Initial Stages 2021
-  location: Online
-  url: https://indico.cern.ch/event/854124/contributions/4146958/
-  coauthors:
-  - J. G. P. Barbon
-  - D. D. Chinellato
-  - M. A. Lisa
-  - C. Shen
-  - J. Takahashi
-  - G. Torrieri
+- date: 2021-09
+  speaker: Matthew Luzum
+  type: Colloquium
+  title: An update on phenomenological constraints of properties of the quark-gluon
+    plasma
+  event: DFMA Colloquium, IFUSP
+  location: USP, São Paulo, Brazil
 - date: 2020-12
   speaker: Matthew Luzum
   type: Colloquium
-  title: 'Hot Quark Soup: Thermodynamics of Hot Strong-Interaction Matter from Ultrarelativistic
+  title: 'Hot Quark Soup: Thermodynamics of Hot Strong-Interaction Matter From Ultrarelativistic
     Nuclear Collisions'
-  event: IF-USP Colloquium
-  location: São Paulo, Brazil
-  url: http://portal.if.usp.br/pesquisa/pt-br/node/2030
-- date: 2020-12
-  speaker: Willian Matioli Serenone
-  type: Talk
-  title: Flow-like effects due to final-state hadronic interactions in relativistic
-    heavy ion collisions
-  event: XLIII Reunião de Trabalho sobre Física Nuclear no Brasil (RTFNB)
-  location: Online
-  url: https://sec.sbfisica.org.br/eventos/rtfnb/xliii/sys/resumos/R0070-1.pdf
-- date: 2020-12
-  speaker: Maurício Hippert Teixeira
-  type: Talk
-  title: Probing the structure of the initial state of heavy-ion collisions with p<sub>T</sub>-dependent
-    flow fluctuations
-  event: XLIII Reunião de Trabalho sobre Física Nuclear no Brasil (RTFNB)
-  location: Online
-  url: https://sec.sbfisica.org.br/eventos/rtfnb/xliii/sys/resumos/R0114-1.pdf
+  event: IFUSP Colloquium
+  location: USP, São Paulo, Brazil
 - date: 2020-10
   speaker: Matthew Luzum
   type: Seminar
-  title: Probing the initial state of heavy-ion collisions with p<sub>T</sub>-dependent
-    flow fluctuations
+  title: Probing the initial state of heavy-ion collisions with pT-dependent flow
+    fluctuations
   event: Nuclear Physics Seminar, The Ohio State University
   location: Columbus, OH, USA
-  url: https://physics.osu.edu/events/nuclear-physics-seminar-matthew-luzum-university-sao-paulo-brazil-probing-initial-state
-- date: 2020-10
-  speaker: Tiago José Nunes da Silva
-  type: Talk
-  title: Pre-hydrodynamic evolution and its signatures in final-state heavy-ion observables
-  event: 2020 Fall Meeting of the APS Division of Nuclear Physics (DNP)
-  location: Online
-  url: http://meetings.aps.org/Meeting/DNP20/Session/MC.7
-- date: 2020-10
-  speaker: Maurício Hippert Teixeira
-  type: Talk
-  title: Probing the Structure of the Initial State of Heavy-Ion Collisions with p<sub>T</sub>-Dependent
-    Flow Fluctuations
-  event: 2020 Fall Meeting of the APS Division of Nuclear Physics (DNP)
-  location: Online
-  url: http://meetings.aps.org/Meeting/DNP20/Session/MC.8
+- date: 2020-01
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Including momentum and stress in a systematic framework for characterizing
+    the bulk evolution of a heavy-ion collision
+  event: Nuclear Theory Seminar, Wayne State University
+  location: Detroit, MI, USA
+- date: 2020-01
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Basics of flow observables and connecting final flow to the initial state
+  event: Nuclear Physics Seminar, University of Illinois Urbana-Champaign
+  location: Urbana, IL, USA
 - date: 2019-11
-  speaker: Maurício Hippert Teixeira
+  speaker: Matthew Luzum
   type: Talk
-  title: Momentum-dependent flow fluctuations as a hydrodynamic response to initial
-    geometry
+  title: Included Momentum and Stress in a Systematic Framework for Understanding
+    the Evolution of a Heavy-Ion Collision
   event: Quark Matter 2019
   location: Wuhan, China
-  url: https://indico.cern.ch/event/792436/contributions/3535654/
-- date: 2019-11
-  speaker: Tiago José Nunes da Silva
-  type: Talk
-  title: Pre-hydrodynamic evolution and its signatures in final-state observables
-  event: Quark Matter 2019
-  location: Wuhan, China
-  url: https://indico.cern.ch/event/792436/contributions/3549057/
-- date: 2019-09
-  speaker: Maurício Hippert Teixeira
-  type: Talk
-  title: Nontrivial subleading two-particle correlations in heavy-ion collisions
-  event: Encontro Nacional de Física de Partículas e Campos (ENFPC 2019)
-  location: Campos do Jordão, Brazil
-  url: https://sites.ifi.unicamp.br/extreme/files/2019/09/ENFPC2019-Hippert.pdf
+  event_url: https://indico.cern.ch/event/792436
 - date: 2019-06
-  speaker: Maurício Hippert Teixeira
-  type: Flash talk
-  title: Understanding p<sub>T</sub>-dependent flow fluctuations from initial geometry
-  event: Initial Stages 2019
-  location: Columbia University, New York, NY, USA
-  url: https://sites.ifi.unicamp.br/extreme/files/2019/09/2019_Hippert_InitialStages_flashtalk.pdf
-- date: 2019-03
-  speaker: Maurício Hippert Teixeira
-  type: Talk
-  title: Mapping the principal component flow analysis from initial conditions
-  event: XXVIII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
+  speaker: Matthew Luzum
+  type: Poster
+  event: V International Conference on the Initial Stages of High-Energy Nuclear Collisions
+    (Initial Stages 2019)
+  location: New York, NY, USA
+  event_url: https://indico.bnl.gov/event/5391/
+- date: 2018-10
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: 'Relativistic Heavy-Ion Collisions: Quark-Gluon Plasma and the Smallest Drop
+    of Liquid'
+  event: XLI Congresso Paulo Leal Ferreira de Física, IFT-UNESP
   location: São Paulo, Brazil
-  url: https://sites.ifi.unicamp.br/hadrex/files/2019/04/RETINHA2019-Hippert.pdf
-- date: 2018-09
-  speaker: Tiago José Nunes da Silva
+- date: 2018-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: High pT / Jet Flow Primer
+  event: JETSCAPE Collaboration Seminar
+  location: Online
+- date: 2018-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'Hydrodynamics and System Size Dependence in Heavy-Ion Collisions: Confronting
+    Hydrodynamic Predictions with Xe-Xe Data'
+  event: GRHAFITE Seminar, IFUSP
+  location: USP, São Paulo, Brazil
+- date: 2018-08
+  speaker: Matthew Luzum
   type: Talk
-  title: Testing a best-fit hydrodynamical model using new observables
-  event: Hot Quarks 2018
-  location: Texel, Netherlands
-  url: https://sites.ifi.unicamp.br/hadrex/files/2019/03/HQ2018_slides.pdf
+  title: Connecting Rapidity-Dependent Flow to Initial Conditions
+  event: MIAPP Heavy-Ion Programme
+  location: Munich, Germany
+  event_url: https://indico.ph.tum.de/event/4072/
+- date: 2018-07
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Confronting Hydrodynamic Predictions with Xe-Xe Data
+  event: Nuclear Theory Lunch Seminar, Stony Brook University
+  location: Stony Brook, NY, USA
+- date: 2018-07
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'Relativistic Heavy-Ion Collisions: Quark-Gluon Plasma and the Smallest Drop
+    of Liquid'
+  event: Theory Seminar, Rutgers University
+  location: Piscataway, NJ, USA
+- date: 2018-07
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'System Size Dependence of Flow Observables in Hydrodynamic Simulations:
+    Predictions for Xe-Xe collisions at 5.44 TeV'
+  event: Nuclear Seminar, Brookhaven National Laboratory
+  location: Upton, NY, USA
+- date: 2018-07
+  speaker: Matthew Luzum
+  type: Talk
+  title: How to compare the results of hydro simulations to measurements
+  event: FAPESP Hydro MUSIC Workshop
+  location: IFUSP, São Paulo, Brazil
+  event_url: https://indico.cern.ch/event/735923/overview
+- date: 2018-05
+  speaker: Matthew Luzum
+  type: Talk
+  title: 'System Size Dependence of Flow Observables in Hydrodynamic Simulations:
+    Predictions for Xe-Xe collisions at 5.44 TeV'
+  event: Quark Matter 2018
+  location: Venice, Italy
+  event_url: https://indico.cern.ch/event/656452/
+- date: 2017-09
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: 'Relativistic Heavy-Ion Collisions: Quark-Gluon Plasma and the Smallest Drop
+    of Liquid'
+  event: XXXVIII Encontro Nacional de Física de Partículas e Campos (ENFPC)
+  location: Passa Quatro, Brazil
+- date: 2017-02
+  speaker: Matthew Luzum
+  type: Talk
+  title: Rapidity dependent flow fluctuations at RHIC
+  event: Quark Matter 2017
+  location: Chicago, IL, USA
+  event_url: https://indico.cern.ch/event/433345/
+- date: 2016-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'Mixed harmonic correlations in relativistic heavy-ion collisions: predictions
+    for new measurements at RHIC'
+  event: DRCC Seminar, Unicamp
+  location: Campinas, Brazil
+- date: 2016-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'Mixed harmonic correlations in relativistic heavy-ion collisions: predictions
+    for new measurements at RHIC'
+  event: Physics Seminar, Universidade Cruzeiro do Sul
+  location: São Paulo, Brazil
+- date: 2016-09
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'Mixed Harmonic Correlations: Recent results on symmetric cumulants'
+  event: Flow in Heavy Ion Collisions, Niels Bohr Institute
+  location: Copenhagen, Denmark
+  event_url: https://indico.nbi.ku.dk/conferenceDisplay.py?confId=927
+- date: 2016-05
+  speaker: Matthew Luzum
+  type: Talk
+  title: Hydrodynamic predictions for 5.02 TeV Pb-Pb collisions
+  event: XXVII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
+  location: IFUSP, São Paulo, Brazil
+- date: 2016-05
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Predicting results for 5.02 TeV Pb-Pb collisions
+  event: GRHAFITE Seminar, IFUSP
+  location: USP, São Paulo, Brazil
+- date: 2016-03
+  speaker: Matthew Luzum
+  type: Colloquium
+  title: Viscosity, Flow and Flow Fluctuations in Relativistic Heavy-Ion Collisions
+  event: IFUSP Colloquium
+  location: USP, São Paulo, Brazil
+- date: 2015-11
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: 'Selected highlights from Quark Matter 2015: Collectivity in small collision
+    systems'
+  event: XXVI Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
+  location: CBPF, Rio de Janeiro, Brazil
+- date: 2015-07
+  speaker: Matthew Luzum
+  type: Talk
+  title: Collective behavior in small collision systems
+  event: INT Workshop
+  location: INT, Seattle, WA, USA
+- date: 2015-03
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Collective behavior in high energy proton-nucleus collisions
+  event: Rencontres de Moriond QCD 2015
+  location: La Thuile, Italy
+  event_url: http://moriond.in2p3.fr/QCD/2015/
+- date: 2015-03
+  speaker: Matthew Luzum
+  type: Seminar
+  event: Seminar, École Polytechnique
+  location: Palaiseau, France
+- date: 2014-12
+  speaker: Matthew Luzum
+  type: Plenary talk
+  title: Outlook — collectivity aspects
+  event: II International Conference on the Initial Stages in High-Energy Nuclear
+    Collisions (IS2014)
+  location: Napa, CA, USA
+  event_url: https://indico.cern.ch/event/336283/
+- date: 2014-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Signatures of collective behavior in small collision systems
+  event: Seminar, Universidade de Santiago de Compostela
+  location: Santiago de Compostela, Spain
+- date: 2013-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'Hot Quark Soup: Viscosity, Flow and Flow Fluctuations in Relativistic Heavy-Ion
+    Collisions'
+  event: Seminar, Rice University
+  location: Houston, TX, USA
+- date: 2013-10
+  speaker: Matthew Luzum
+  type: Colloquium
+  title: 'Hot Quark Soup: Viscosity, Flow and Flow Fluctuations in Relativistic Heavy-Ion
+    Collisions'
+  event: Physics Colloquium, University of Houston
+  location: Houston, TX, USA
+- date: 2013-09
+  speaker: Matthew Luzum
+  type: Plenary talk
+  title: Constraining properties of the initial state from flow data
+  event: International Conference on the Initial Stages in High-Energy Nuclear Collisions
+    (IS2013)
+  location: Illas Cíes / La Toxa, Spain
+  event_url: http://igfae.usc.es/is2013/
+- date: 2013-08
+  speaker: Matthew Luzum
+  type: Talk
+  title: 'pT structure of two-particle correlations: flow, non-flow and fluctuations'
+  event: 2nd International Workshop on Initial State Fluctuations and Final State
+    Correlations
+  location: Chengdu, China
+  event_url: http://correlation2013.lbl.gov/
+- date: 2013-05
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'pT structure of two-particle correlations: flow, non-flow and fluctuations'
+  event: STAR Group Seminar, Lawrence Berkeley National Laboratory
+  location: Berkeley, CA, USA
+- date: 2013-05
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Mapping the hydrodynamic response to initial conditions in heavy-ion collisions
+  event: Heavy-Ion Tea Seminar, Lawrence Berkeley National Laboratory
+  location: Berkeley, CA, USA
+- date: 2013-02
+  speaker: Matthew Luzum
+  type: Seminar
+  title: 'pT structure of two-particle correlations: flow, non-flow and fluctuations'
+  event: JET Collaboration Bulk Working Group Seminar
+  location: Online
+- date: 2012-10
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Hydro overview
+  event: Hot Quarks 2012
+  location: Guánica, Puerto Rico, USA
+- date: 2012-08
+  speaker: Matthew Luzum
+  type: Talk
+  title: Shear viscosity of the quark-gluon plasma from flow in heavy-ion collisions
+  event: Quark Matter 2012
+  location: Washington, DC, USA
+  url: https://indico.cern.ch/getFile.py/access?contribId=66&sessionId=47&resId=0&materialId=slides&confId=181055
+- date: 2012-07
+  speaker: Matthew Luzum
+  type: Talk
+  title: Shear viscosity of the quark-gluon plasma from flow measurements
+  event: Initial State Fluctuations and Final State Correlations (ECT*-EMMI Workshop)
+  location: ECT*, Trento, Italy
+- date: 2012-05
+  speaker: Matthew Luzum
+  type: Plenary talk
+  title: Implication of recent measurements of Heavy Ion collisions
+  event: Rencontres de Blois 2012
+  location: Blois, France
+- date: 2012-04
+  speaker: Matthew Luzum
+  type: Talk
+  title: Shear viscosity of the quark-gluon plasma from relativistic heavy ion collisions
+  event: QNP 2012, École Polytechnique
+  location: Palaiseau, France
+- date: 2012-02
+  speaker: Matthew Luzum
+  type: Colloquium
+  event: Physics Colloquium, Kent State University
+  location: Kent, OH, USA
+- date: 2011-12
+  speaker: Matthew Luzum
+  type: Seminar
+  event: Nuclear Physics Seminar, The Ohio State University
+  location: Columbus, OH, USA
+- date: 2011-09
+  speaker: Matthew Luzum
+  type: Seminar
+  event: Seminar, Universidad de Santiago de Compostela
+  location: Santiago de Compostela, Spain
+- date: 2011-09
+  speaker: Matthew Luzum
+  type: Seminar
+  event: Seminar, Tata Institute of Fundamental Research (TIFR)
+  location: Mumbai, India
+- date: 2011-05
+  speaker: Matthew Luzum
+  type: Plenary talk
+  title: Flow Fluctuations in Heavy-Ion Collisions
+  event: Quark Matter 2011
+  location: Annecy, France
+  url: http://indico.cern.ch/contributionDisplay.py?sessionId=37&contribId=641&confId=30248
+- date: 2011-05
+  speaker: Matthew Luzum
+  type: Colloquium
+  event: HIC for FAIR Colloquium, Goethe-Universität
+  location: Frankfurt am Main, Germany
+- date: 2011-04
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: 'Dissertation Award in Nuclear Physics Talk: Relativistic viscous hydrodynamics
+    and heavy-ion collisions'
+  event: APS April Meeting 2011
+  location: Anaheim, CA, USA
+- date: 2011-04
+  speaker: Matthew Luzum
+  type: Seminar
+  event: CPHT Seminar, École Polytechnique
+  location: Palaiseau, France
+- date: 2011-02
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Viscous hydrodynamics for Relativistic Heavy Ion Collisions
+  event: Excited QCD 2011
+  location: Les Houches, France
+- date: 2011-02
+  speaker: Matthew Luzum
+  type: Talk
+  title: Collective Flow and Long-Range Correlations in Heavy-Ion Collisions
+  event: Initial State Fluctuations and Final-State Particle Correlations
+  location: BNL, Upton, NY, USA
+- date: 2010-12
+  speaker: Matthew Luzum
+  type: Seminar
+  event: Nuclear Theory Seminar, Brookhaven National Laboratory
+  location: Upton, NY, USA
+- date: 2010-11
+  speaker: Matthew Luzum
+  type: Seminar
+  event: Seminar, Universidade de São Paulo
+  location: São Paulo, Brazil
+- date: 2010-10
+  speaker: Matthew Luzum
+  type: Seminar
+  event: Seminar, University of Jyväskylä
+  location: Jyväskylä, Finland
+- date: 2010-09
+  speaker: Matthew Luzum
+  type: Talk
+  title: Triangular flow in viscous hydrodynamics
+  event: TORIC 2010
+  location: Sardinia, Italy
+- date: 2010-08
+  speaker: Matthew Luzum
+  type: Talk
+  title: Triangular flow in hydrodynamics and transport theory
+  event: The First Heavy Ion Collisions at the LHC (HIC10)
+  location: CERN, Geneva, Switzerland
+- date: 2010-06
+  speaker: Matthew Luzum
+  type: Talk
+  title: v4 from Ideal and Viscous Hydrodynamics
+  event: Hot Quarks 2010
+  location: La Londe-les-Maures, France
+- date: 2010-06
+  speaker: Matthew Luzum
+  type: Talk
+  title: v4 from Ideal and Viscous Hydrodynamics
+  event: 'INT Program: Quantifying the Properties of Hot QCD Matter'
+  location: INT, Seattle, WA, USA
+- date: 2009-09
+  speaker: Matthew Luzum
+  type: Talk
+  title: Viscous Hydrodynamic Predictions for Nuclear Collisions at the LHC
+  event: Flow and Dissipation in Ultrarelativistic Heavy Ion Collisions
+  location: ECT*, Trento, Italy
+- date: 2009-03
+  speaker: Matthew Luzum
+  type: Poster
+  title: Viscous Hydrodynamic Predictions for Nuclear Collisions at the LHC
+  event: Quark Matter 2009
+  location: Knoxville, TN, USA
