@@ -14,40 +14,40 @@
   --night-muted: #9eb0c9;
   --night-line: rgba(255, 255, 255, 0.11);
 
-  /* day: content */
-  --bg: #f3f6fb;
-  --surface: #ffffff;
-  --surface-2: #e9eff8;
-  --ink: #0f172a;
-  --muted: #475569;
-  --faint: #64748b;
-  --line: #dbe3ef;
-  --line-strong: #c2cfe2;
+  /* page & surface tokens (all-dark theme) */
+  --bg: #090e1a;
+  --surface: #11192b;
+  --surface-2: #141e33;
+  --ink: #e8eef8;
+  --muted: #a6b4ca;
+  --faint: #8494ad;
+  --line: #222f49;
+  --line-strong: #314263;
 
-  --accent: #1d4ed8;
-  --accent-strong: #1e3a8a;
-  --accent-soft: #e0edff;
+  --accent: #38bdf8;
+  --accent-strong: #7dd3fc;
+  --accent-soft: rgba(56, 189, 248, 0.14);
   --focus: #0284c7;
 
   --hot-gradient: linear-gradient(100deg, #38bdf8 0%, #60a5fa 45%, #fbbf24 100%);
 
   /* research theme / stage colors */
-  --stage-ic: #d97706;
-  --stage-hydro: #1d4ed8;
-  --stage-decay: #0f766e;
-  --stage-cascade: #0284c7;
-  --stage-conv: #4f46e5;
-  --stage-bayes: #7c3aed;
-  --stage-obs: #0d9488;
+  --stage-ic: #f59e0b;
+  --stage-hydro: #3b82f6;
+  --stage-decay: #14b8a6;
+  --stage-cascade: #38bdf8;
+  --stage-conv: #818cf8;
+  --stage-bayes: #a78bfa;
+  --stage-obs: #2dd4bf;
 
   /* talk type badges: text / background */
-  --b-plenary: #be123c;    --b-plenary-bg: #ffe4e9;
-  --b-invited: #b45309;    --b-invited-bg: #ffedd5;
-  --b-talk: #1d4ed8;       --b-talk-bg: #e0e9ff;
-  --b-flash: #92400e;      --b-flash-bg: #fef3c7;
-  --b-seminar: #0f766e;    --b-seminar-bg: #d5f5ef;
-  --b-colloquium: #15803d; --b-colloquium-bg: #dcfce7;
-  --b-poster: #7e22ce;     --b-poster-bg: #f3e8ff;
+  --b-plenary: #fda4b4;    --b-plenary-bg: rgba(244, 63, 94, 0.16);
+  --b-invited: #fdba74;    --b-invited-bg: rgba(249, 115, 22, 0.16);
+  --b-talk: #93c5fd;       --b-talk-bg: rgba(59, 130, 246, 0.18);
+  --b-flash: #fcd34d;      --b-flash-bg: rgba(234, 179, 8, 0.16);
+  --b-seminar: #5eead4;    --b-seminar-bg: rgba(20, 184, 166, 0.16);
+  --b-colloquium: #86efac; --b-colloquium-bg: rgba(34, 197, 94, 0.15);
+  --b-poster: #d8b4fe;     --b-poster-bg: rgba(168, 85, 247, 0.18);
 
   --font-display: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
   --font-body: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
@@ -57,40 +57,11 @@
   --gutter: clamp(16px, 4vw, 32px);
   --radius: 16px;
   --radius-sm: 10px;
-  --shadow-1: 0 1px 2px rgba(15, 23, 42, 0.05), 0 1px 1px rgba(15, 23, 42, 0.03);
-  --shadow-2: 0 18px 40px -18px rgba(15, 23, 42, 0.25);
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 18px 40px -18px rgba(0, 0, 0, 0.65);
   --header-h: 68px;
 
-  color-scheme: light;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #090e1a;
-    --surface: #11192b;
-    --surface-2: #172238;
-    --ink: #e8eef8;
-    --muted: #a6b4ca;
-    --faint: #8494ad;
-    --line: #222f49;
-    --line-strong: #314263;
-
-    --accent: #38bdf8;
-    --accent-strong: #7dd3fc;
-    --accent-soft: rgba(56, 189, 248, 0.14);
-
-    --b-plenary: #fda4b4;    --b-plenary-bg: rgba(244, 63, 94, 0.16);
-    --b-invited: #fdba74;    --b-invited-bg: rgba(249, 115, 22, 0.16);
-    --b-talk: #93c5fd;       --b-talk-bg: rgba(59, 130, 246, 0.18);
-    --b-flash: #fcd34d;      --b-flash-bg: rgba(234, 179, 8, 0.16);
-    --b-seminar: #5eead4;    --b-seminar-bg: rgba(20, 184, 166, 0.16);
-    --b-colloquium: #86efac; --b-colloquium-bg: rgba(34, 197, 94, 0.15);
-    --b-poster: #d8b4fe;     --b-poster-bg: rgba(168, 85, 247, 0.18);
-
-    --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.35);
-    --shadow-2: 0 18px 40px -18px rgba(0, 0, 0, 0.65);
-    color-scheme: dark;
-  }
+  color-scheme: dark;
 }
 
 /* ---------- Base ---------- */
