@@ -1,0 +1,39 @@
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        {% include logo.html id="footer" %}
+        <span class="brand-text">
+          <span class="brand-name">IFUSP Heavy Ions</span>
+          <span class="brand-sub">University of São Paulo</span>
+        </span>
+      </a>
+      <p><strong>Relativistic Heavy-Ion Physics Group</strong> at the <a href="https://portal.if.usp.br/" target="_blank" rel="noopener">Institute of Physics, University of São Paulo (IFUSP)</a> — investigating the Quark-Gluon Plasma and strongly interacting matter under extreme conditions.</p>
+    </div>
+
+    <nav class="footer-col" aria-label="Footer">
+      <h2>Explore</h2>
+      <ul>
+        <li><a href="{{ '/' | relative_url }}">Home</a></li>
+        {%- for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+
+    <div class="footer-col">
+      <h2>Affiliations &amp; Contact</h2>
+      <ul>
+        <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+        <li><a href="https://www.extreme-collaboration.science" target="_blank" rel="noopener">The ExTrEMe Collaboration</a></li>
+        <li><a href="https://jetscape.org/" target="_blank" rel="noopener">JETSCAPE Collaboration</a></li>
+        <li><a href="https://github.com/{{ site.github_org }}" target="_blank" rel="noopener">GitHub organization</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-base">
+    <span>© {{ site.time | date: "%Y" }} IFUSP Heavy-Ion Group · Prof. Matthew Luzum</span>
+    <span>Supported by FAPESP, CNPq and CAPES</span>
+  </div>
+</footer>

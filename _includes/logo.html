@@ -1,0 +1,19 @@
+{%- comment -%}
+  IFUSP Heavy-Ion Group mark: anisotropic flow harmonic contour + colliding nuclei around a Cherenkov blue/gold core.
+  Pass a unique `id` when the mark appears more than once on a page.
+{%- endcomment -%}
+{%- assign gid = include.id | default: "logo" | prepend: "qgp-" -%}
+<svg class="logo-mark" viewBox="0 0 40 40" width="40" height="40" aria-hidden="true" focusable="false">
+  <defs>
+    <radialGradient id="{{ gid }}" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#fef3c7"/>
+      <stop offset="0.3" stop-color="#38bdf8"/>
+      <stop offset="0.68" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1e3a8a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <ellipse cx="20" cy="20" rx="11" ry="13.5" fill="url(#{{ gid }})"/>
+  <ellipse cx="20" cy="20" rx="7.5" ry="11.5" fill="none" stroke="#fbbf24" stroke-width="1.2" stroke-opacity="0.7" stroke-dasharray="2.5 2"/>
+  <ellipse cx="7" cy="20" rx="2.6" ry="14.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+  <ellipse cx="33" cy="20" rx="2.6" ry="14.5" fill="none" stroke="currentColor" stroke-width="1.8"/>
+</svg>

@@ -1,0 +1,33 @@
+{%- comment -%}
+  One entry from _data/publications.yml. Parameters:
+    pub       – the entry
+    category  – category name (used by the page filter)
+{%- endcomment -%}
+{%- assign p = include.pub -%}
+{%- assign href = "" -%}
+{%- if p.doi -%}{%- assign href = p.doi | prepend: "https://doi.org/" -%}
+{%- elsif p.arxiv -%}{%- assign href = p.arxiv | prepend: "https://arxiv.org/abs/" -%}
+{%- elsif p.url -%}{%- assign href = p.url -%}{%- endif -%}
+<li class="pub" data-category="{{ include.category }}">
+  <div class="pub-year">{{ p.year }}</div>
+  <div class="pub-body">
+    <h3 class="pub-title">
+      {%- if href != "" -%}<a href="{{ href }}" target="_blank" rel="noopener">{{ p.title }}</a>{%- else -%}{{ p.title }}{%- endif -%}
+    </h3>
+    {%- if p.authors %}<p class="pub-authors">{{ p.authors }}</p>{% endif -%}
+    {%- if p.venue or p.note or p.advisor %}
+    <p class="pub-venue">
+      {%- if p.venue %}<span class="pub-journal">{{ p.venue }}</span>{% endif -%}
+      {%- if p.note %}<span class="pub-note">{{ p.note }}</span>{% endif -%}
+      {%- if p.advisor %}<span class="pub-note">Advisor: {{ p.advisor }}</span>{% endif -%}
+    </p>
+    {%- endif %}
+    {%- if p.doi or p.arxiv or p.url %}
+    <p class="pub-ids">
+      {%- if p.doi %}<a class="id-pill" href="https://doi.org/{{ p.doi }}" target="_blank" rel="noopener"><span class="id-kind">DOI</span>{{ p.doi }}</a>{% endif -%}
+      {%- if p.arxiv %}<a class="id-pill" href="https://arxiv.org/abs/{{ p.arxiv }}" target="_blank" rel="noopener"><span class="id-kind">arXiv</span>{{ p.arxiv }}</a>{% endif -%}
+      {%- if p.url %}<a class="id-pill" href="{{ p.url }}" target="_blank" rel="noopener"><span class="id-kind">Repository</span>{% include icon.html name="external" %}</a>{% endif -%}
+    </p>
+    {%- endif %}
+  </div>
+</li>

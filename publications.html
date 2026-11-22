@@ -1,0 +1,41 @@
+---
+title: Publications
+permalink: /publications/
+eyebrow: Research output
+lead: Research articles, conference proceedings, preprints, and theses authored by members of the IFUSP Heavy-Ion Group.
+---
+{%- assign total = 0 -%}
+{%- for group in site.data.publications -%}{%- assign total = total | plus: group.items.size -%}{%- endfor -%}
+
+<div class="toolbar" data-filter="publications">
+  <label class="search">
+    {% include icon.html name="search" %}
+    <span class="sr-only">Search publications</span>
+    <input type="search" placeholder="Search titles, authors, journals, arXiv IDs…" autocomplete="off" data-filter-search>
+  </label>
+  <div class="chips" role="group" aria-label="Filter by category">
+    <button type="button" class="chip" aria-pressed="true" data-filter-chip="">All <span class="count">{{ total }}</span></button>
+    {%- for group in site.data.publications %}
+    <button type="button" class="chip" aria-pressed="false" data-filter-chip="{{ group.category }}">{{ group.category }} <span class="count">{{ group.items.size }}</span></button>
+    {%- endfor %}
+  </div>
+  <p class="filter-status" aria-live="polite" data-filter-status></p>
+</div>
+
+<div data-filter-list>
+  {%- for group in site.data.publications %}
+  <section class="pub-group" id="{{ group.category | slugify }}" data-filter-group>
+    <header class="pub-group-head">
+      <h2>{{ group.category }}</h2>
+      {%- if group.description %}<p>{{ group.description }}</p>{% endif %}
+    </header>
+    {%- assign entries = group.items | sort: "year" | reverse %}
+    <ol class="pub-list">
+      {%- for p in entries %}
+      {% include publication.html pub=p category=group.category %}
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endfor %}
+</div>
+<p class="empty-state" data-filter-empty hidden>No publications match these filters.</p>

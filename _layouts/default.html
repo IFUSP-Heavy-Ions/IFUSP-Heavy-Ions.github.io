@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'en' }}" class="no-js">
+<head>
+  {% include head.html %}
+</head>
+<body class="{{ page.body_class | default: 'page-default' }}">
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include header.html %}
+  <main id="main" tabindex="-1">
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  {%- for script in page.scripts %}
+  <script src="{{ script | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  {%- endfor %}
+</body>
+</html>

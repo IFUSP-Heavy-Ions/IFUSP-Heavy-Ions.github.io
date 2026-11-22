@@ -1,14 +1,38 @@
 title: IFUSP Heavy-Ion Group
+short_title: IFUSP Heavy Ions
+tagline: Relativistic Heavy-Ion Physics at the University of São Paulo
+description: >-
+  Relativistic Heavy-Ion Physics group of Prof. Matthew Luzum at the Institute
+  of Physics, University of São Paulo (IFUSP), investigating the Quark-Gluon
+  Plasma and strongly interacting matter under extreme conditions.
 email: mluzum@usp.br
-description: Relativistic Heavy-Ion Physics group of Prof. Matthew Luzum at the Institute of Physics, University of São Paulo.
 baseurl: ""
 url: "https://ifusp-heavy-ions.github.io"
-theme: minima
+lang: en
+
+# Used for footer and contact links
+github_org: IFUSP-Heavy-Ions
+site_repository: IFUSP-Heavy-Ions/IFUSP-Heavy-Ions.github.io
+
 markdown: kramdown
 plugins:
   - jekyll-feed
-header_pages:
-  - members.md
-  - research.md
-  - publications.md
-  - contact.md
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+# Keep repository-only files out of the published site.
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - scripts/
+  - vendor/
+  - node_modules/
+  - .github/
+  - .jekyll-cache/

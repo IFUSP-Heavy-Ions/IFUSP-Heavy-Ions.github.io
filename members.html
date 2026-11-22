@@ -1,0 +1,78 @@
+---
+title: Members
+permalink: /members/
+eyebrow: People at IFUSP
+lead: Faculty, postdoctoral researchers, graduate students, and undergraduate researchers in the Heavy-Ion Physics Group at the University of São Paulo.
+wide: true
+---
+{%- assign seen_ids = "" | split: "" -%}
+{%- assign former_total = 0 -%}
+{%- for group in site.data.members -%}
+  {%- assign fm = group.members | where: "active", false -%}
+  {%- assign former_total = former_total | plus: fm.size -%}
+{%- endfor -%}
+
+<nav class="pill-nav" aria-label="Member groups">
+  {%- for group in site.data.members %}
+    {%- assign active_members = group.members | where: "active", true %}
+    {%- if active_members.size > 0 %}
+    <a href="#{{ group.id | default: group.role | slugify }}">{{ group.role }} <span class="count">{{ active_members.size }}</span></a>
+    {%- endif %}
+  {%- endfor %}
+  {%- if former_total > 0 %}
+  <a href="#former-members">Former Members &amp; Alumni <span class="count">{{ former_total }}</span></a>
+  {%- endif %}
+</nav>
+
+{% for group in site.data.members %}
+  {%- assign active_members = group.members | where: "active", true %}
+  {%- if active_members.size > 0 %}
+<section class="member-group" id="{{ group.id | default: group.role | slugify }}">
+  <h2>{{ group.role }}</h2>
+  <ul class="member-grid">
+    {%- for person in active_members %}
+    {%- assign parts = person.name | split: " " %}
+    {%- assign hue = person.name.size | modulo: 6 %}
+    {%- assign pid = person.name | slugify: 'latin' %}
+    <li class="member-card"{% unless seen_ids contains pid %} id="{{ pid }}"{% endunless %}>
+      {%- unless seen_ids contains pid %}{%- assign seen_ids = seen_ids | push: pid %}{%- endunless %}
+      <span class="avatar avatar-{{ hue }}" aria-hidden="true">{{ parts.first | slice: 0 }}{{ parts.last | slice: 0 }}</span>
+      <div class="member-info">
+        <h3>{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</h3>
+        {%- if person.badge %}<span class="role-badge">{{ person.badge }}</span>{% endif %}
+        <p class="member-position">{{ person.title | default: group.role }}</p>
+        {%- if person.institution %}<p class="member-affiliation">{{ person.institution }}</p>{% endif %}
+        {% include member-links.html person=person %}
+      </div>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+  {%- endif %}
+{% endfor %}
+
+{%- if former_total > 0 %}
+<section class="member-group" id="former-members">
+  <h2>Former Members &amp; Alumni</h2>
+  <ul class="alumni-list">
+    {%- for group in site.data.members %}
+      {%- assign former_members = group.members | where: "active", false %}
+      {%- for person in former_members %}
+      {%- assign pid = person.name | slugify: 'latin' %}
+      <li{% unless seen_ids contains pid %} id="{{ pid }}"{% endunless %}>
+        {%- unless seen_ids contains pid %}{%- assign seen_ids = seen_ids | push: pid %}{%- endunless %}
+        <span class="alumni-name">{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}</span>
+        <span class="alumni-position">{{ group.role }}</span>
+        <span class="alumni-affiliation">{{ person.note | default: "USP" }}</span>
+        {% include member-links.html person=person %}
+      </li>
+      {%- endfor %}
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
+
+<aside class="callout">
+  <h2>Join the group at IFUSP</h2>
+  <p>We welcome prospective undergraduate (IC), Master's, PhD, and postdoctoral researchers. See the <a href="{{ '/contact/' | relative_url }}#opportunities">contact page</a> for how to get in touch and available fellowship opportunities.</p>
+</aside>

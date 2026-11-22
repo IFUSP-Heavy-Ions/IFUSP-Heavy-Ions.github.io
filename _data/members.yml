@@ -7,26 +7,31 @@
 # inspire_bai: INSPIRE-HEP author BAI (e.g. "M.Luzum.1")
 #   Used by scripts/update_publications_from_inspirehep.py
 #   Look up at: https://inspirehep.net/authors
-# lattes: CNPq Lattes curriculum ID number
+# lattes: CNPq Lattes curriculum ID number (16 digits)
 # orcid: ORCID identifier
 # url: personal or profile page URL
-# note: short note shown only for former members (e.g. current position)
+# note: short note shown for former members (e.g. current position)
 
 - role: Faculty
+  id: faculty
   members:
     - name: Matthew Luzum
       active: true
       title: Associate Professor (MS-5)
-      institution: Institute of Physics, University of São Paulo
+      badge: Group Leader
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       inspire_bai: M.Luzum.1
       orcid: 0000-0002-0367-7055
       lattes: "3672547273353904"
       url: https://matt.luzum.org/
 
 - role: Postdocs
+  id: postdocs
   members:
     - name: Osvaldo Ferreira Neto
       active: true
+      title: Postdoctoral Researcher
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       inspire_bai: Osvaldo.Ferreira.1
       orcid: 0000-0002-6711-8308
       lattes: "6790966492250263"
@@ -34,37 +39,48 @@
       active: false
       inspire_bai: T.J.Nunes.da.Silva.1
       orcid: 0000-0001-8044-4055
+      lattes: "6029696722164198"
       url: https://tjnunes.paginas.ufsc.br
       note: Now Professor at UFSC
     - name: Andre Veiga Giannini
       active: false
       inspire_bai: A.V.Giannini.1
       orcid: 0000-0003-0123-6472
+      lattes: "2669085919057438"
       note: Now Professor at UFGD
     - name: Maurício Hippert Teixeira
       active: false
       inspire_bai: Mauricio.Hippert.1
       orcid: 0000-0001-5802-3908
-      note: Now Professor at CBPF
+      lattes: "0055928814441454"
+      note: Now Associate Researcher at CBPF
     - name: Willian Matioli Serenone
       active: false
       inspire_bai: W.M.Serenone.1
       orcid: 0000-0002-9873-9713
+      lattes: "3286464028110773"
       note: Postdoc, Unicamp
 
 - role: PhD Students
+  id: phd
   members:
     - name: Gabriel Alves de Lima Guimarães
       active: true
+      title: PhD Student
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       lattes: ""
       inspire_bai: G.M.Guimaraes.1
     - name: João Paulo Picchetti
       active: true
+      title: PhD Student
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       inspire_bai: J.P.Picchetti.1
       orcid: 0000-0003-3273-9726
       lattes: ""
     - name: Thiago Siqueira Domingues
       active: true
+      title: PhD Student
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       orcid: 0000-0001-6756-8600
       lattes: "4092459866318436"
       inspire_bai: T.S.Domingues.1
@@ -73,8 +89,10 @@
       lattes: ""
     - name: Giuliano de Souza Dias
       active: true
+      title: PhD Student
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       orcid: 0009-0007-7397-9087
-      lattes: ""
+      lattes: "1230359131969219"
     - name: Liner de Souza Santos
       active: false
       inspire_bai: L.d.Santos.1
@@ -90,9 +108,12 @@
       note: PhD, USP
 
 - role: Master's Students
+  id: masters
   members:
     - name: Nara Ávila Moraes
       active: true
+      title: Master's Student
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       lattes: ""
     - name: Gabriel Alves de Lima Guimarães
       active: false
@@ -101,11 +122,15 @@
       note: MSc, USP (later PhD student in group)
     - name: Luiza Fernanda Perin
       active: true
+      title: Master's Student
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       inspire_bai: L.Perin.1
       orcid: 0000-0003-3954-5414
       lattes: ""
     - name: Matheus Colmenero
       active: true
+      title: Master's Student
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       lattes: ""
     - name: Rodrigo Guanciale Franco
       active: false
@@ -123,15 +148,18 @@
       note: MSc, USP (later PhD student in group)
 
 - role: Undergraduate Researchers
+  id: undergrads
   members:
     - name: Rodrigo Guanciale Franco
       active: false
       orcid: 0000-0002-5557-9836
-      note: (Later Master student in group)
+      note: Later Master's student in group
     - name: Giulia Ghio
       active: false
       lattes: ""
     - name: Luiz Fernando Vilkelis Aparicio
       active: true
+      title: Undergraduate Researcher (IC)
+      institution: Institute of Physics, University of São Paulo (IFUSP)
       orcid: 0009-0007-3009-0501
       lattes: ""

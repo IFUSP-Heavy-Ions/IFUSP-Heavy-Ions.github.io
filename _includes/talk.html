@@ -1,0 +1,48 @@
+{%- comment -%}
+  One talk from _data/talks.yml. Parameters:
+    talk       – the entry
+    show_year  – also print the year next to the month (used on the home page)
+{%- endcomment -%}
+{%- assign t = include.talk -%}
+{%- assign months = "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec" | split: "," -%}
+{%- assign month_index = t.date | slice: 5, 2 | plus: 0 | minus: 1 -%}
+{%- assign year = t.date | slice: 0, 4 -%}
+{%- assign member_names = site.data.members | map: "members" | map: "name" -%}
+<li class="talk" data-type="{{ t.type }}" data-speaker="{{ t.speaker }}">
+  <div class="talk-date">
+    <span class="talk-month">{{ months[month_index] }}</span>
+    {%- if include.show_year %}<span class="talk-year">{{ year }}</span>{% endif %}
+  </div>
+  <div class="talk-body">
+    <h3 class="talk-title">
+      {%- if t.title -%}
+        {%- if t.url -%}
+          {%- assign words = t.title | split: " " -%}
+          {%- assign head = words.size | minus: 1 -%}
+          <a href="{{ t.url }}" target="_blank" rel="noopener">{% for w in words limit: head %}{{ w }} {% endfor %}<span class="nowrap">{{ words.last }}{% include icon.html name="external" %}</span></a>
+        {%- else -%}{{ t.title }}{%- endif -%}
+      {%- else -%}
+        {%- if t.url -%}<a class="untitled" href="{{ t.url }}" target="_blank" rel="noopener">Title not recorded{% include icon.html name="external" %}</a>
+        {%- else -%}<span class="untitled">Title not recorded</span>{%- endif -%}
+      {%- endif -%}
+    </h3>
+    <p class="talk-meta">
+      <span class="badge" data-badge="{{ t.type | slugify }}">{{ t.type }}</span>
+      {% if member_names contains t.speaker -%}
+        <a class="talk-speaker" href="{{ '/members/' | relative_url }}#{{ t.speaker | slugify: 'latin' }}">{{ t.speaker }}</a>
+      {%- else -%}
+        <span class="talk-speaker">{{ t.speaker }}</span>
+      {%- endif %}
+      {%- if t.coauthors %}<span class="talk-coauthors">with {{ t.coauthors | join: ", " }}</span>{% endif %}
+    </p>
+    <p class="talk-event">
+      <span class="talk-event-name">{% if t.event_url %}<a href="{{ t.event_url }}" target="_blank" rel="noopener">{{ t.event }}</a>{% else %}{{ t.event }}{% endif %}</span>
+      {%- if t.location -%}
+        {%- assign loc = t.location | split: " " -%}
+        {%- assign loc_rest = loc | slice: 1, loc.size | join: " " -%}
+        <span class="talk-location"><span class="nowrap">{% include icon.html name="pin" %}{{ loc.first }}</span>{% if loc_rest != "" %} {{ loc_rest }}{% endif %}</span>
+      {%- endif -%}
+      {%- if t.video %}<a class="talk-video" href="{{ t.video }}" target="_blank" rel="noopener">{% include icon.html name="play" %}Recording</a>{% endif -%}
+    </p>
+  </div>
+</li>

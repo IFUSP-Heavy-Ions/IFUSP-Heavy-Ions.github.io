@@ -1,0 +1,25 @@
+{%- comment -%}
+  Profile links for one person from _data/members.yml (parameter: person).
+{%- endcomment -%}
+{%- assign person = include.person -%}
+{%- assign has_lattes = false -%}
+{%- if person.lattes and person.lattes != "" -%}{%- assign has_lattes = true -%}{%- endif -%}
+{%- assign n_talks = 0 -%}
+{%- if include.show_talks != false -%}
+  {%- assign n_talks = site.data.talks | where: "speaker", person.name | size -%}
+{%- endif -%}
+{%- if has_lattes or person.orcid or person.inspire_bai or person.url or n_talks > 0 -%}
+<p class="member-links">
+  {%- if has_lattes -%}
+    {%- if person.lattes contains "http" -%}
+      <a href="{{ person.lattes }}" target="_blank" rel="noopener">Lattes</a>
+    {%- else -%}
+      <a href="https://lattes.cnpq.br/{{ person.lattes }}" target="_blank" rel="noopener">Lattes</a>
+    {%- endif -%}
+  {%- endif -%}
+  {%- if person.orcid %}<a href="https://orcid.org/{{ person.orcid }}" target="_blank" rel="noopener" title="ORCID {{ person.orcid }}">{% include icon.html name="orcid" %}ORCID</a>{% endif -%}
+  {%- if person.inspire_bai %}<a href="https://inspirehep.net/literature?q=a%20{{ person.inspire_bai }}" target="_blank" rel="noopener">INSPIRE</a>{% endif -%}
+  {%- if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener">Website</a>{% endif -%}
+  {%- if n_talks > 0 %}<a class="member-talks" href="{{ '/presentations/' | relative_url }}?speaker={{ person.name | url_encode }}">{{ n_talks }} presentation{% if n_talks > 1 %}s{% endif %}</a>{% endif -%}
+</p>
+{%- endif -%}

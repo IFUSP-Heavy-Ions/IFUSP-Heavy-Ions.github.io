@@ -29,7 +29,7 @@ jobs:
           python3 - <<'PYEOF'
           import yaml, sys
           errors = []
-          for path in ["_data/members.yml", "_data/publications.yml"]:
+          for path in ["_data/members.yml", "_data/publications.yml", "_data/talks.yml", "_data/navigation.yml"]:
               try:
                   data = yaml.safe_load(open(path))
                   print(f"✓ {path}: valid YAML")

@@ -1,0 +1,203 @@
+---
+layout: default
+body_class: page-home
+scripts:
+  - /assets/js/collision.js
+---
+{%- assign active_count = 0 -%}
+{%- assign alumni_names = "" | split: "" -%}
+{%- assign active_names = "" | split: "" -%}
+{%- for group in site.data.members -%}
+  {%- for m in group.members -%}
+    {%- if m.active -%}
+      {%- assign active_count = active_count | plus: 1 -%}
+      {%- assign active_names = active_names | push: m.name -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- for group in site.data.members -%}
+  {%- for m in group.members -%}
+    {%- unless m.active -%}
+      {%- unless active_names contains m.name or alumni_names contains m.name -%}
+        {%- assign alumni_names = alumni_names | push: m.name -%}
+      {%- endunless -%}
+    {%- endunless -%}
+  {%- endfor -%}
+{%- endfor -%}
+{%- assign paper_count = 0 -%}
+{%- for cat in site.data.publications -%}
+  {%- assign paper_count = paper_count | plus: cat.items.size -%}
+{%- endfor -%}
+
+<section class="hero" data-hero-mode="animated">
+  <canvas class="hero-canvas" data-collision aria-hidden="true"></canvas>
+  {% include hero-art.html %}
+  <div class="hero-shade" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <p class="eyebrow eyebrow-hot">Institute of Physics · University of São Paulo</p>
+    <h1 class="hero-title">
+      <span class="acro">IFUSP</span> Heavy-Ion Physics Group
+    </h1>
+    <p class="hero-lead">
+      Investigating the properties of strongly interacting matter under extreme conditions
+      of temperature and density — the <em>Quark-Gluon Plasma</em> — through relativistic
+      fluid dynamics, nuclear structure, and Bayesian inference at RHIC and the LHC.
+    </p>
+    <div class="hero-actions">
+      <a class="button button-hot" href="#research">Explore our research {% include icon.html name="arrow" %}</a>
+      <a class="button button-ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="button button-ghost" href="{{ '/members/' | relative_url }}">Group members</a>
+    </div>
+
+    <div class="hero-bottom-bar">
+      <dl class="hero-stats">
+        <div><dt>Active members</dt><dd>{{ active_count }}</dd></div>
+        <div><dt>Group alumni</dt><dd>{{ alumni_names.size }}</dd></div>
+        <div><dt>Publications</dt><dd>{{ paper_count }}</dd></div>
+        <div><dt>Presentations</dt><dd>{{ site.data.talks.size }}</dd></div>
+      </dl>
+
+      <div class="hero-mode-switch" role="group" aria-label="Hero banner visual mode">
+        <button type="button" class="hero-mode-btn" data-set-hero-mode="animated" aria-pressed="true">Animated collision</button>
+        <button type="button" class="hero-mode-btn" data-set-hero-mode="static" aria-pressed="false">Static diagram</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="research">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">Research focus</p>
+      <h2>Probing QCD matter in relativistic nuclear collisions</h2>
+      <p>Led by <a href="https://matt.luzum.org/" target="_blank" rel="noopener">Prof. Matthew Luzum</a> in the Department of Mathematical Physics at IFUSP, our group combines theoretical physics and large-scale hybrid simulations to study hot and dense QCD matter.</p>
+    </header>
+
+    <ol class="scope-grid">
+      <li class="scope-card" style="--stage: var(--stage-hydro)">
+        <span class="scope-num">01</span>
+        <h3>Relativistic viscous hydrodynamics</h3>
+        <p>(3+1)D viscous fluid dynamics of the Quark-Gluon Plasma, causality constraints, transport coefficients, and non-equilibrium corrections at freeze-out.</p>
+      </li>
+      <li class="scope-card" style="--stage: var(--stage-ic)">
+        <span class="scope-num">02</span>
+        <h3>Initial conditions &amp; pre-equilibrium</h3>
+        <p>Fluctuating nuclear overlap geometry and pre-hydrodynamic kinetic evolution bridging initial energy deposition with hydrodynamic expansion.</p>
+      </li>
+      <li class="scope-card" style="--stage: var(--stage-obs)">
+        <span class="scope-num">03</span>
+        <h3>Scaled <i>p</i><sub>T</sub> spectra &amp; collectivity</h3>
+        <p>Universal scaling of transverse-momentum spectra shapes across collision systems and centralities as a precision probe of collectivity in large and small systems.</p>
+      </li>
+      <li class="scope-card" style="--stage: var(--stage-cascade)">
+        <span class="scope-num">04</span>
+        <h3>Flow harmonics &amp; correlations</h3>
+        <p>Anisotropic flow (<i>v</i><sub><i>n</i></sub>), momentum-dependent flow fluctuations, principal component analysis, and collective signatures at RHIC and the LHC.</p>
+      </li>
+      <li class="scope-card" style="--stage: var(--stage-conv)">
+        <span class="scope-num">05</span>
+        <h3>Nuclear structure across energy scales</h3>
+        <p>Imprints of nuclear deformation, short-range two-nucleon correlations, and light-ion nuclear structure on high-energy heavy-ion observables.</p>
+      </li>
+      <li class="scope-card scope-card-cta">
+        <a href="{{ '/research/' | relative_url }}">
+          <span class="scope-num">→</span>
+          <h3>Bayesian inference &amp; software</h3>
+          <p>Multi-stage simulation chains (TRENTo, KoMPoST, MUSIC, iSS, UrQMD), Gaussian process emulators, and open-source tools.</p>
+          <span class="link-arrow">Research &amp; software {% include icon.html name="arrow" %}</span>
+        </a>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="container latest-grid">
+    <div class="latest-col">
+      <header class="section-head section-head-sm">
+        <p class="eyebrow">Latest</p>
+        <h2>Recent papers</h2>
+      </header>
+      {%- assign group_pubs = site.data.publications | first -%}
+      {%- assign recent_pubs = group_pubs.items | sort: "year" | reverse -%}
+      <ol class="pub-list pub-list-compact">
+        {%- for p in recent_pubs limit: 4 %}
+        {% include publication.html pub=p category=group_pubs.category %}
+        {%- endfor %}
+      </ol>
+      <a class="link-arrow" href="{{ '/publications/' | relative_url }}">All publications {% include icon.html name="arrow" %}</a>
+    </div>
+
+    <div class="latest-col">
+      <header class="section-head section-head-sm">
+        <p class="eyebrow">Dissemination</p>
+        <h2>Recent presentations</h2>
+      </header>
+      {%- assign recent_talks = site.data.talks | sort: "date" | reverse -%}
+      <ol class="talk-list talk-list-compact">
+        {%- for t in recent_talks limit: 5 %}
+        {% include talk.html talk=t show_year=true %}
+        {%- endfor %}
+      </ol>
+      <a class="link-arrow" href="{{ '/presentations/' | relative_url }}">All presentations {% include icon.html name="arrow" %}</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <header class="section-head">
+      <p class="eyebrow">Connected research</p>
+      <h2>International collaborations</h2>
+      <p>Our local research group at USP plays a leading role in multi-institution theoretical and phenomenological collaborations.</p>
+    </header>
+    <div class="collab-grid">
+      <article class="collab-card collab-card-featured">
+        <div>
+          <span class="collab-role">Coordination · Prof. Matthew Luzum</span>
+          <h3>The ExTrEMe Collaboration</h3>
+          <p><strong>Ex</strong>periment and <strong>T</strong>heo<strong>r</strong>y in <strong>E</strong>xtreme <strong>M</strong>att<strong>e</strong>r is a multi-institution network connecting researchers across Brazilian and international universities on heavy-ion collision phenomenology and hybrid hydrodynamic modeling.</p>
+        </div>
+        <p style="margin: 1rem 0 0;">
+          <a class="link-arrow" href="https://www.extreme-collaboration.science" target="_blank" rel="noopener">Visit extreme-collaboration.science {% include icon.html name="external" %}</a>
+        </p>
+      </article>
+
+      <article class="collab-card">
+        <div>
+          <span class="collab-role">SIMS Working Group Convener</span>
+          <h3>JETSCAPE Collaboration</h3>
+          <p>The Jet Energy-loss Tomography with a Statistically and Computationally Advanced Program Envelope collaboration develops a modular, multi-stage event generator and Bayesian inference framework for heavy-ion collisions.</p>
+        </div>
+        <p style="margin: 1rem 0 0;">
+          <a class="link-arrow" href="https://jetscape.org/" target="_blank" rel="noopener">Visit jetscape.org {% include icon.html name="external" %}</a>
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section-support">
+  <div class="container support-inner">
+    <header class="section-head">
+      <p class="eyebrow">Support &amp; acknowledgments</p>
+      <h2>Funded by</h2>
+      <p>Research in the IFUSP Heavy-Ion Group is supported by Brazilian federal and state funding agencies.</p>
+    </header>
+    <ul class="funders">
+      <li>
+        <a href="https://fapesp.br/en" target="_blank" rel="noopener"><strong>FAPESP</strong></a>
+        <span>São Paulo Research Foundation</span>
+        <small>Thematic projects, research grants, and student/postdoctoral fellowships</small>
+      </li>
+      <li>
+        <a href="https://www.gov.br/cnpq/" target="_blank" rel="noopener"><strong>CNPq</strong></a>
+        <span>National Council for Scientific and Technological Development</span>
+      </li>
+      <li>
+        <a href="https://www.gov.br/capes/" target="_blank" rel="noopener"><strong>CAPES</strong></a>
+        <span>Coordination for the Improvement of Higher Education Personnel</span>
+      </li>
+    </ul>
+  </div>
+</section>

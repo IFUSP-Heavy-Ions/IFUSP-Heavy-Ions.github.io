@@ -1,0 +1,294 @@
+# Talks, seminars and posters by IFUSP Heavy-Ion Group members.
+#
+# One entry per presentation, newest first (the page sorts by `date` anyway).
+# Fields:
+#   date:      "YYYY-MM" (quoted)
+#   speaker:   Full name matching _data/members.yml
+#   type:      Plenary talk | Invited talk | Talk | Flash talk | Seminar | Colloquium | Poster
+#   title:     Presentation title (in double quotes)
+#   event:     Conference, workshop, or seminar series name
+#   location:  "City, Country" or "Online"
+#   url:       (optional) Link to slides or contribution page
+#   event_url: (optional) Link to the event page
+#   video:     (optional) Link to recording
+
+- date: 2026-09
+  speaker: Matthew Luzum
+  type: Talk
+  title: Direct Constraints on the Nuclear Hamiltonian from Relativistic Light-Ion
+    Collisions
+  event: EMMI Workshop on Light-Ion Collisions 2026
+  location: Heidelberg, Germany
+  url: https://indico.gsi.de/event/25022/contributions/101806/
+- date: 2025-12
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Exploring the shape of the transverse momentum spectra in relativistic heavy-ion
+    collisions
+  event: Nuclear Seminar, University of Illinois Urbana-Champaign
+  location: Urbana, IL, USA
+- date: 2025-11
+  speaker: Thiago Siqueira Domingues
+  type: Talk
+  title: 'Universal Scaled Spectra: Bayesian Constraints on QGP Transport from Heavy-Ion
+    Collisions'
+  event: Advances in QCD at the LHC and the EIC
+  location: CBPF, Rio de Janeiro, Brazil
+  url: https://indico.cern.ch/event/1450037/contributions/6728882/
+- date: 2025-10
+  speaker: Thiago Siqueira Domingues
+  type: Talk
+  title: Exploring the universality of scaled particle spectra with Bayesian inference
+    in heavy-ion collisions
+  event: XXXII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
+  location: CBPF, Rio de Janeiro, Brazil
+  url: https://github.com/ThiagoSDomingues/Universality_Github/blob/main/presentations/RETINHA_32.pdf
+- date: 2025-09
+  speaker: Matthew Luzum
+  type: Talk
+  title: Exploring the shape of the transverse momentum spectra
+  event: Quark-Gluon Plasma in Heavy-Ion Collisions
+  location: Beijing, China
+  event_url: https://indico.ihep.ac.cn/event/24981/
+- date: 2023-09
+  speaker: Willian Matioli Serenone
+  type: Talk
+  title: QGP vortex rings as a new probe for jet-induced medium response and longitudinal
+    dynamics
+  event: Quark Matter 2023
+  location: Houston, TX, USA
+  url: https://indico.cern.ch/event/1139644/contributions/5453466/
+- date: 2023-09
+  speaker: Tiago José Nunes da Silva
+  type: Talk
+  title: Causality Violations in Hybrid Simulations of Large and Small Systems
+  event: III Encontro de Primavera da SBF
+  location: UFF, Niterói, Brazil
+  url: https://sec.sbfisica.org.br/eventos/epsbf/iii/sys/resumos/R0343-1.pdf
+  event_url: https://www1.fisica.org.br/~epsbf/iii/index.php/pt/
+- date: 2022-09
+  speaker: Tiago José Nunes da Silva
+  type: Talk
+  title: Evolving hybrid descriptions of the quark-gluon plasma in heavy-ion collisions
+  event: XLII Encontro Nacional de Física de Partículas e Campos (ENFPC)
+  location: Brazil
+  coauthors:
+  - D. D. Chinellato
+  - A. V. Giannini
+  - M. N. Ferreira
+  - J. Takahashi
+  - G. S. Denicol
+  - M. Hippert
+  - J. Noronha
+  - M. Luzum
+- date: 2022-06
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: Recent progress in hydrodynamics for heavy-ion collisions
+  event: Strong and Electro-Weak Matter 2022 (SEWM 2022)
+  location: Paris, France
+  event_url: https://indico.in2p3.fr/event/26461/
+- date: 2022-06
+  speaker: Andre Veiga Giannini
+  type: Seminar
+  title: Assessing the ultra-central flow puzzle in the Bayesian era
+  event: Physics Department Seminar, Universidade Federal de Pelotas
+  location: UFPel, Pelotas, Brazil
+- date: 2022-05
+  speaker: Matthew Luzum
+  type: Invited talk
+  title: 'Modeling nuclei across energy scales: Glauber Monte Carlo approach in heavy-ion
+    collisions'
+  event: EMMI Rapid Reaction Task Force (RRTF)
+  location: Heidelberg, Germany
+  event_url: https://indico.gsi.de/event/14430/
+- date: 2022-05
+  speaker: Andre Veiga Giannini
+  type: Talk
+  title: Phenomenology of high energy nuclear collisions with hybrid hydrodynamic
+    simulations
+  event: XXIX Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
+  location: Rio de Janeiro, Brazil
+- date: 2022-04
+  speaker: Andre Veiga Giannini
+  type: Poster
+  title: Assessing the ultra-central flow puzzle in the Bayesian era
+  event: Quark Matter 2022
+  location: Kraków, Poland
+  url: https://indico.cern.ch/event/895086/contributions/4712297/
+- date: 2022-04
+  speaker: Matthew Luzum
+  type: Poster
+  title: 'Accuracy vs. precision: the importance of theoretical uncertainties in Bayesian
+    constraints of the quark-gluon plasma''s properties'
+  event: Quark Matter 2022
+  location: Kraków, Poland
+  event_url: https://indico.cern.ch/event/895086/
+- date: 2022-04
+  speaker: Andre Veiga Giannini
+  type: Talk
+  title: 'Bayesian analysis meets ultra-central collisions: assessing the anisotropic
+    flow puzzle'
+  event: Workshop RENAFAE 2022
+  location: Brazil
+  url: https://indico.cern.ch/event/1124802/contributions/4834443/
+- date: 2021-11
+  speaker: Andre Veiga Giannini
+  type: Poster
+  title: 'Phenomenology of small nuclear collision systems in the Color Glass Condensate:
+    beyond the Gaussian approximation'
+  event: XLIV Reunião de Trabalho sobre Física Nuclear no Brasil (RTFNB)
+  location: São Paulo, Brazil
+  event_url: https://sec.sbfisica.org.br/eventos/rtfnb/xliv/programa/trabalhos.asp?sesId=1
+- date: 2021-08
+  speaker: Willian Matioli Serenone
+  type: Talk
+  title: Hard parton thermalization as a source of hadron polarization
+  event: 'INT Program 21-2b: Probing QCD at High Energy and Density with Jets'
+  location: Institute for Nuclear Theory, Seattle, WA, USA
+  event_url: https://sites.google.com/uw.edu/int/programs/21-2b
+- date: 2021-05
+  speaker: Willian Matioli Serenone
+  type: Seminar
+  title: Lambda polarization from thermalized jet energy
+  event: Theory of Hadronic Matter under Extreme Conditions Seminar, BLTP-JINR
+  location: Dubna, Russia
+  event_url: http://theor.jinr.ru/~klopot/seminarTHMUEC.html
+- date: 2021-05
+  speaker: Willian Matioli Serenone
+  type: Talk
+  title: Lambda polarization from the thermalized jet energy and momentum
+  event: Workshop on QGP Phenomenology
+  location: Tehran, Iran
+  url: https://indico.cern.ch/event/1021608/contributions/4294780/
+- date: 2021-03
+  speaker: Tiago José Nunes da Silva
+  type: Talk
+  title: Initial conditions for hydrodynamics with Trento and Kompost
+  event: ExTrEMe Hydro Workshop
+  location: São Paulo, Brazil
+  event_url: https://indico.cern.ch/event/1009763/timetable/
+- date: 2021-03
+  speaker: Tiago José Nunes da Silva
+  type: Seminar
+  title: Efeitos pré-hidrodinâmicos em colisões ultra-relativísticas de íons pesados
+  event: Physics Department Seminar, Universidade Federal de Santa Catarina
+  location: UFSC, Florianópolis, Brazil
+- date: 2021-01
+  speaker: Tiago José Nunes da Silva
+  type: Talk
+  title: Pre-hydrodynamic evolution and conformal symmetry in small systems
+  event: Initial Stages 2021
+  location: Online
+  url: https://indico.cern.ch/event/854124/contributions/4145541/
+- date: 2021-01
+  speaker: Maurício Hippert Teixeira
+  type: Talk
+  title: Fixing the nuclear charge density with finite nucleons
+  event: Initial Stages 2021
+  location: Online
+  url: https://indico.cern.ch/event/854124/contributions/4152883/
+- date: 2021-01
+  speaker: Willian Matioli Serenone
+  type: Poster
+  title: Polarization in heavy-ion collisions via local initial energy deposition
+  event: Initial Stages 2021
+  location: Online
+  url: https://indico.cern.ch/event/854124/contributions/4146958/
+  coauthors:
+  - J. G. P. Barbon
+  - D. D. Chinellato
+  - M. A. Lisa
+  - C. Shen
+  - J. Takahashi
+  - G. Torrieri
+- date: 2020-12
+  speaker: Matthew Luzum
+  type: Colloquium
+  title: 'Hot Quark Soup: Thermodynamics of Hot Strong-Interaction Matter from Ultrarelativistic
+    Nuclear Collisions'
+  event: IF-USP Colloquium
+  location: São Paulo, Brazil
+  url: http://portal.if.usp.br/pesquisa/pt-br/node/2030
+- date: 2020-12
+  speaker: Willian Matioli Serenone
+  type: Talk
+  title: Flow-like effects due to final-state hadronic interactions in relativistic
+    heavy ion collisions
+  event: XLIII Reunião de Trabalho sobre Física Nuclear no Brasil (RTFNB)
+  location: Online
+  url: https://sec.sbfisica.org.br/eventos/rtfnb/xliii/sys/resumos/R0070-1.pdf
+- date: 2020-12
+  speaker: Maurício Hippert Teixeira
+  type: Talk
+  title: Probing the structure of the initial state of heavy-ion collisions with p<sub>T</sub>-dependent
+    flow fluctuations
+  event: XLIII Reunião de Trabalho sobre Física Nuclear no Brasil (RTFNB)
+  location: Online
+  url: https://sec.sbfisica.org.br/eventos/rtfnb/xliii/sys/resumos/R0114-1.pdf
+- date: 2020-10
+  speaker: Matthew Luzum
+  type: Seminar
+  title: Probing the initial state of heavy-ion collisions with p<sub>T</sub>-dependent
+    flow fluctuations
+  event: Nuclear Physics Seminar, The Ohio State University
+  location: Columbus, OH, USA
+  url: https://physics.osu.edu/events/nuclear-physics-seminar-matthew-luzum-university-sao-paulo-brazil-probing-initial-state
+- date: 2020-10
+  speaker: Tiago José Nunes da Silva
+  type: Talk
+  title: Pre-hydrodynamic evolution and its signatures in final-state heavy-ion observables
+  event: 2020 Fall Meeting of the APS Division of Nuclear Physics (DNP)
+  location: Online
+  url: http://meetings.aps.org/Meeting/DNP20/Session/MC.7
+- date: 2020-10
+  speaker: Maurício Hippert Teixeira
+  type: Talk
+  title: Probing the Structure of the Initial State of Heavy-Ion Collisions with p<sub>T</sub>-Dependent
+    Flow Fluctuations
+  event: 2020 Fall Meeting of the APS Division of Nuclear Physics (DNP)
+  location: Online
+  url: http://meetings.aps.org/Meeting/DNP20/Session/MC.8
+- date: 2019-11
+  speaker: Maurício Hippert Teixeira
+  type: Talk
+  title: Momentum-dependent flow fluctuations as a hydrodynamic response to initial
+    geometry
+  event: Quark Matter 2019
+  location: Wuhan, China
+  url: https://indico.cern.ch/event/792436/contributions/3535654/
+- date: 2019-11
+  speaker: Tiago José Nunes da Silva
+  type: Talk
+  title: Pre-hydrodynamic evolution and its signatures in final-state observables
+  event: Quark Matter 2019
+  location: Wuhan, China
+  url: https://indico.cern.ch/event/792436/contributions/3549057/
+- date: 2019-09
+  speaker: Maurício Hippert Teixeira
+  type: Talk
+  title: Nontrivial subleading two-particle correlations in heavy-ion collisions
+  event: Encontro Nacional de Física de Partículas e Campos (ENFPC 2019)
+  location: Campos do Jordão, Brazil
+  url: https://sites.ifi.unicamp.br/extreme/files/2019/09/ENFPC2019-Hippert.pdf
+- date: 2019-06
+  speaker: Maurício Hippert Teixeira
+  type: Flash talk
+  title: Understanding p<sub>T</sub>-dependent flow fluctuations from initial geometry
+  event: Initial Stages 2019
+  location: Columbia University, New York, NY, USA
+  url: https://sites.ifi.unicamp.br/extreme/files/2019/09/2019_Hippert_InitialStages_flashtalk.pdf
+- date: 2019-03
+  speaker: Maurício Hippert Teixeira
+  type: Talk
+  title: Mapping the principal component flow analysis from initial conditions
+  event: XXVIII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
+  location: São Paulo, Brazil
+  url: https://sites.ifi.unicamp.br/hadrex/files/2019/04/RETINHA2019-Hippert.pdf
+- date: 2018-09
+  speaker: Tiago José Nunes da Silva
+  type: Talk
+  title: Testing a best-fit hydrodynamical model using new observables
+  event: Hot Quarks 2018
+  location: Texel, Netherlands
+  url: https://sites.ifi.unicamp.br/hadrex/files/2019/03/HQ2018_slides.pdf

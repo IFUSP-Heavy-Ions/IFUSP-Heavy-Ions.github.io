@@ -1,0 +1,13 @@
+---
+title: Page not found
+permalink: /404.html
+eyebrow: Error 404
+lead: The page you are looking for does not exist or may have moved.
+---
+<p>Try one of these pages instead:</p>
+<ul class="not-found-links">
+  <li><a href="{{ '/' | relative_url }}">Home</a></li>
+  {%- for item in site.data.navigation %}
+  <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+  {%- endfor %}
+</ul>

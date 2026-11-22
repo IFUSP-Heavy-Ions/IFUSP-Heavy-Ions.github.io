@@ -1,0 +1,75 @@
+---
+title: Research
+permalink: /research/
+eyebrow: Physics & simulation
+lead: Investigating strongly interacting matter and the Quark-Gluon Plasma (QGP) using ultra-relativistic heavy-ion collisions at RHIC and the LHC.
+---
+<h2>Research themes</h2>
+<p>At temperatures above ~150 MeV, nuclear matter undergoes a crossover transition into a deconfined state of quarks and gluons — the Quark-Gluon Plasma. Our group develops theoretical tools and multi-stage numerical simulations to extract the fundamental properties of this matter from experimental observables.</p>
+
+<ol class="stages">
+  <li class="stage" style="--stage: var(--stage-ic)">
+    <span class="stage-num">1</span>
+    <div class="stage-body">
+      <h3>Initial conditions &amp; pre-equilibrium dynamics</h3>
+      <p>The geometry and event-by-event quantum fluctuations of the nuclear overlap region at the moment of impact seed all subsequent collective dynamics. We investigate how pre-hydrodynamic evolution transforms these initial conditions into the energy-momentum tensor that initializes relativistic fluid dynamics.</p>
+    </div>
+  </li>
+  <li class="stage" style="--stage: var(--stage-hydro)">
+    <span class="stage-num">2</span>
+    <div class="stage-body">
+      <h3>Relativistic viscous hydrodynamics</h3>
+      <p>We develop and apply (3+1)D viscous relativistic fluid dynamics to describe the macroscopic expansion of the QGP. Our work examines causality constraints in nonlinear hydrodynamic simulations, shear and bulk transport coefficients, and species-dependent viscous corrections at particlization.</p>
+    </div>
+  </li>
+  <li class="stage" style="--stage: var(--stage-obs)">
+    <span class="stage-num">3</span>
+    <div class="stage-body">
+      <h3>Scaled transverse-momentum spectra</h3>
+      <p>We identified that the shape of transverse-momentum (<i>p</i><sub>T</sub>) spectra exhibits remarkable universality across collision systems and centralities when scaled by the mean transverse momentum. This provides a sensitive probe of thermalization, radial flow, and the onset of collectivity from small to large collision systems.</p>
+    </div>
+  </li>
+  <li class="stage" style="--stage: var(--stage-cascade)">
+    <span class="stage-num">4</span>
+    <div class="stage-body">
+      <h3>Anisotropic flow &amp; collective correlations</h3>
+      <p>Anisotropic flow harmonics (<i>v</i><sub><i>n</i></sub>), momentum-dependent flow fluctuations, and principal-component analyses carry detailed information about initial-state geometry and QGP viscosity. We design new observables and perform precision comparisons with LHC and RHIC measurements.</p>
+    </div>
+  </li>
+  <li class="stage" style="--stage: var(--stage-conv)">
+    <span class="stage-num">5</span>
+    <div class="stage-body">
+      <h3>Nuclear structure in high-energy collisions</h3>
+      <p>Relativistic collisions take instantaneous snapshots of the colliding nuclei. We study how nuclear quadrupole and octupole deformations, neutron skins, short-range nucleon-nucleon correlations, and light-ion cluster geometries imprint themselves on final-state observables.</p>
+    </div>
+  </li>
+  <li class="stage" style="--stage: var(--stage-bayes)">
+    <span class="stage-num">6</span>
+    <div class="stage-body">
+      <h3>Bayesian inference &amp; machine learning</h3>
+      <p>Using full hybrid simulation chains (TRENTo / IP-Glasma → KoMPoST → MUSIC → iSS → UrQMD), Gaussian process emulators, and constrained functional priors, we perform rigorous Bayesian parameter estimation to quantify uncertainties in the QGP equation of state and transport coefficients.</p>
+    </div>
+  </li>
+</ol>
+
+<h2 class="section-title">Software &amp; simulation codes</h2>
+<p>Our group contributes to and utilizes open-source simulation codes for heavy-ion phenomenology:</p>
+
+<div class="contact-grid">
+  <section class="card contact-card">
+    <h3><a class="code-chip" href="https://github.com/MUSIC-fluid/MUSIC" target="_blank" rel="noopener">MUSIC</a> Relativistic hydrodynamics</h3>
+    <p>(3+1)D relativistic viscous hydrodynamics simulation code solving energy-momentum and charge conservation with shear and bulk dissipation.</p>
+  </section>
+  <section class="card contact-card">
+    <h3><a class="code-chip" href="https://github.com/mluzum/Isobar-Sampler" target="_blank" rel="noopener">Isobar-Sampler</a> Nuclear geometry</h3>
+    <p>Monte Carlo nuclear configuration generator for sampling nucleon positions with deformation and short-range correlation effects.</p>
+  </section>
+  <section class="card contact-card">
+    <h3><a class="code-chip" href="https://github.com/JETSCAPE/iEBE-MUSIC" target="_blank" rel="noopener">iEBE-MUSIC</a> Hybrid event generator</h3>
+    <p>Integrated event-by-event simulation framework coupling initial conditions, pre-equilibrium evolution, MUSIC hydrodynamics, iSS particlization, and UrQMD.</p>
+  </section>
+  <section class="card contact-card">
+    <h3><a class="code-chip" href="https://www.extreme-collaboration.science/simulation-chain/" target="_blank" rel="noopener">ExTrEMe Pipeline</a> Multi-stage chain</h3>
+    <p>Full documentation of the TRENTo → KoMPoST → MUSIC → iSS → UrQMD simulation chain used across our joint projects with the ExTrEMe Collaboration.</p>
+  </section>
+</div>

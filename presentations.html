@@ -1,0 +1,64 @@
+---
+title: Presentations
+permalink: /presentations/
+eyebrow: Dissemination
+lead: Invited talks, conference presentations, seminars, colloquia, and posters given by members of the IFUSP Heavy-Ion Group.
+---
+{%- assign talks = site.data.talks | sort: "date" | reverse -%}
+{%- assign by_year = talks | group_by_exp: "t", "t.date | slice: 0, 4" -%}
+{%- assign types = "Plenary talk,Invited talk,Talk,Flash talk,Seminar,Colloquium,Poster" | split: "," -%}
+{%- assign speakers = talks | map: "speaker" | uniq | sort -%}
+
+<div class="toolbar" data-filter="talks">
+  <label class="search">
+    {% include icon.html name="search" %}
+    <span class="sr-only">Search presentations</span>
+    <input type="search" placeholder="Search titles, events, places…" autocomplete="off" data-filter-search>
+  </label>
+
+  <div class="menu" data-filter-menu="speaker">
+    <span class="menu-label" id="speaker-label">Speaker</span>
+    <button type="button" class="menu-button" id="speaker-button" aria-haspopup="listbox" aria-expanded="false"
+            aria-controls="speaker-list" aria-labelledby="speaker-label speaker-button" data-menu-button>
+      <span data-menu-value>Everyone</span>{% include icon.html name="chevron" %}
+    </button>
+    <ul class="menu-list" id="speaker-list" role="listbox" tabindex="-1" aria-labelledby="speaker-label" data-menu-list hidden>
+      <li class="menu-option" role="option" id="speaker-opt-0" data-value="" aria-selected="true">
+        {%- include icon.html name="check" %}<span>Everyone</span><span class="count">{{ talks.size }}</span>
+      </li>
+      {%- for s in speakers %}
+      {%- assign n = talks | where: "speaker", s | size %}
+      <li class="menu-option" role="option" id="speaker-opt-{{ forloop.index }}" data-value="{{ s }}" aria-selected="false">
+        {%- include icon.html name="check" %}<span>{{ s }}</span><span class="count">{{ n }}</span>
+      </li>
+      {%- endfor %}
+    </ul>
+  </div>
+
+  <div class="chips" role="group" aria-label="Filter by type">
+    <button type="button" class="chip" aria-pressed="true" data-filter-chip="">All <span class="count">{{ talks.size }}</span></button>
+    {%- for ty in types %}
+    {%- assign n = talks | where: "type", ty | size %}
+    {%- if n > 0 %}
+    <button type="button" class="chip" aria-pressed="false" data-filter-chip="{{ ty }}"><span class="dot" data-badge="{{ ty | slugify }}"></span>{{ ty }} <span class="count">{{ n }}</span></button>
+    {%- endif %}
+    {%- endfor %}
+  </div>
+  <p class="filter-status" aria-live="polite" data-filter-status></p>
+</div>
+
+<div class="timeline" data-filter-list>
+  {%- for year in by_year %}
+  <section class="year-group" data-filter-group>
+    <h2 class="year-label">{{ year.name }}</h2>
+    <ol class="talk-list">
+      {%- for t in year.items %}
+      {% include talk.html talk=t %}
+      {%- endfor %}
+    </ol>
+  </section>
+  {%- endfor %}
+</div>
+<p class="empty-state" data-filter-empty hidden>No presentations match these filters.</p>
+
+<p class="page-note">Group members can add new talks by editing <code>_data/talks.yml</code> in the <a href="https://github.com/{{ site.site_repository }}" target="_blank" rel="noopener">website repository</a> and opening a pull request.</p>
