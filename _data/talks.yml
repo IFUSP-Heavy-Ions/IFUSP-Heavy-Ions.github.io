@@ -26,6 +26,25 @@
   event: EMMI Workshop on Light-Ion Collisions 2026
   location: Heidelberg, Germany
   url: https://indico.gsi.de/event/25022/contributions/101806/
+- date: 2026-09
+  speaker: João Paulo Picchetti
+  type: Talk
+  title: Operator-Level Nuclear Structure Constraints from STAR Isobar Data
+  event: EMMI Workshop on Light-Ion Collisions 2026
+  location: Heidelberg, Germany
+  url: https://indico.gsi.de/event/25022/contributions/101728/
+- date: 2026-06
+  speaker: João Paulo Picchetti
+  type: Talk
+  title: Connecting high- and low-energy measurements of nuclear structure
+  event: XXXIII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA 33)
+  location: CBPF, Rio de Janeiro, Brazil
+- date: 2026-02
+  speaker: João Paulo Picchetti
+  type: Flash talk
+  title: Bayesian constraints on nuclear structure parameters of Ru96 and Zr96 from relativistic heavy-ion collisions
+  event: Frontiers in Nuclear and Hadronic Physics 2026
+  location: Florence, Italy
 - date: 2026-01
   speaker: Matthew Luzum
   type: Seminar
@@ -63,6 +82,12 @@
   event: XXXII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA)
   location: CBPF, Rio de Janeiro, Brazil
   url: https://github.com/ThiagoSDomingues/Universality_Github/blob/main/presentations/RETINHA_32.pdf
+- date: 2025-10
+  speaker: João Paulo Picchetti
+  type: Talk
+  title: Studying details of nuclear structure with relativistic heavy-ion collisions
+  event: XXXII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA 32)
+  location: CBPF, Rio de Janeiro, Brazil
 - date: 2025-09
   speaker: Matthew Luzum
   type: Invited talk
@@ -125,6 +150,12 @@
   event: Exploring Nuclear Physics Across Energy Scales 2024
   location: Beijing, China
   event_url: https://indico.ihep.ac.cn/event/20877/
+- date: 2024-03
+  speaker: João Paulo Picchetti
+  type: Talk
+  title: Studying details of nuclear structure with relativistic heavy-ion collisions
+  event: XXXI Reunião de Trabalho sobre Interações Hadrônicas (RETINHA 31)
+  location: CBPF, Rio de Janeiro, Brazil
 - date: 2023-09
   speaker: Matthew Luzum
   type: Talk
