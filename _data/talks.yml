@@ -12,6 +12,12 @@
 #   event_url: (optional) Link to the event page
 #   video:     (optional) Link to recording
 
+- date: 2026-06
+  speaker: Giuliano de Souza Dias
+  type: Talk
+  title: Machine Learning em simulações de colisões de ions pesados
+  event: XXXIII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA 33)
+  location: CBPF, Rio de Janeiro, Brazil
 - date: 2026-09
   speaker: Matthew Luzum
   type: Invited talk
