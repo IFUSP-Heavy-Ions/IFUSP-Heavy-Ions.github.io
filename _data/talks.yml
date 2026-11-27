@@ -12,6 +12,27 @@
 #   event_url: (optional) Link to the event page
 #   video:     (optional) Link to recording
 
+- date: 2026-11
+  speaker: Osvaldo Ferreira
+  type: Lecture
+  title: Are hybrid hydrodynamic models missing soft-pion physics? 
+  event: Research Group Meetings in Nuclear and Particle Physics
+  location: São Paulo, Brazil
+  event_url: https://www.ictp-saifr.org/nuclearparticlemeetings/
+- date: 2026-11
+  speaker: Thiago Domingues
+  type: Seminar
+  title: Scale vs shape: universal scalings in heavy-ion collisions
+  event: Research Group Meetings in Nuclear and Particle Physics
+  location: São Paulo, Brazil
+  event_url: https://www.ictp-saifr.org/nuclearparticlemeetings/
+- date: 2026-11
+  speaker: Matthew Luzum
+  type: Lecture
+  title: Phenomenology of relativistic heavy-ion collisions
+  event: Research Group Meetings in Nuclear and Particle Physics
+  location: São Paulo, Brazil
+  event_url: https://www.ictp-saifr.org/nuclearparticlemeetings/
 - date: 2026-06
   speaker: Giuliano de Souza Dias
   type: Talk
