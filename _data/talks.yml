@@ -12,31 +12,31 @@
 #   event_url: (optional) Link to the event page
 #   video:     (optional) Link to recording
 
-- date: 2026-11
-  speaker: Osvaldo Ferreira
+- date: "2026-11"
+  speaker: Osvaldo Ferreira Neto
   type: Seminar
-  title: Are hybrid hydrodynamic models missing soft-pion physics? 
+  title: "Are hybrid hydrodynamic models missing soft-pion physics?"
   event: Research Group Meetings in Nuclear and Particle Physics
   location: São Paulo, Brazil
   event_url: https://www.ictp-saifr.org/nuclearparticlemeetings/
-- date: 2026-11
-  speaker: Thiago Domingues
+- date: "2026-11"
+  speaker: Thiago Siqueira Domingues
   type: Seminar
-  title: Scale vs shape: universal scalings in heavy-ion collisions
+  title: "Scale vs shape: universal scalings in heavy-ion collisions"
   event: Research Group Meetings in Nuclear and Particle Physics
   location: São Paulo, Brazil
   event_url: https://www.ictp-saifr.org/nuclearparticlemeetings/
-- date: 2026-11
+- date: "2026-11"
   speaker: Matthew Luzum
   type: Seminar
-  title: Phenomenology of relativistic heavy-ion collisions
+  title: "Phenomenology of relativistic heavy-ion collisions"
   event: Research Group Meetings in Nuclear and Particle Physics
   location: São Paulo, Brazil
   event_url: https://www.ictp-saifr.org/nuclearparticlemeetings/
-- date: 2026-06
+- date: "2026-06"
   speaker: Giuliano de Souza Dias
   type: Talk
-  title: Machine Learning em simulações de colisões de ions pesados
+  title: "Machine Learning em simulações de colisões de ions pesados"
   event: XXXIII Reunião de Trabalho sobre Interações Hadrônicas (RETINHA 33)
   location: CBPF, Rio de Janeiro, Brazil
 - date: 2026-09
